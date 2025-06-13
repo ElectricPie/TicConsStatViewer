@@ -1,0 +1,3540 @@
+﻿{
+  "electrical_steel": {
+    "id": "electrical_steel",
+    "color": "ffa9a9a9",
+    "name": "Electrical Steel",
+    "head": {
+      "durability": 230,
+      "attack": 1.6875,
+      "level": 8,
+      "speed": 4.875,
+      "traits": ["shocking", "thundering"]
+    },
+    "handle": {"durability": 60, "modifier": 0.75, "traits": ["lightweight", "thundering"]},
+    "extra": {"durability": 56, "traits": ["lightweight", "thundering"]},
+    "bow": {"damage": 1.0, "speed": 1.5, "range": 0.9, "traits": ["lightweight", "thundering"]},
+    "core": {"defense": 5.6953125, "durability": 8.0, "traits": ["lightweight_armor"]},
+    "plate": {"durability": 5.0, "modifier": 11.911764, "toughness": 0.0, "traits": ["lightweight_armor"]},
+    "trim": {"durability": 5.0, "traits": ["lightweight_armor"]}
+  },
+  "energetic_alloy": {
+    "id": "energetic_alloy",
+    "color": "ffd9934c",
+    "name": "Energetic Alloy",
+    "head": {"durability": 518, "attack": 4.2, "level": 7, "speed": 1.875, "traits": ["unnatural"]},
+    "handle": {"durability": -1400, "modifier": 4.0, "traits": ["holy"]},
+    "extra": {"durability": 300, "traits": ["petramor"]},
+    "bow": {"damage": 4.0, "speed": 0.5, "range": 0.8, "traits": ["petramor"]},
+    "core": {"defense": 14.175, "durability": 18.0, "traits": ["ambitious_armor"]},
+    "plate": {"durability": 29.0, "modifier": 50.0, "toughness": -0.0, "traits": ["ambitious_armor"]},
+    "trim": {"durability": 29.0, "traits": ["ambitious_armor"]}
+  },
+  "vibrant_alloy": {
+    "id": "vibrant_alloy",
+    "color": "ffb6c870",
+    "name": "Vibrant Alloy",
+    "head": {"durability": 165, "attack": 6.75, "level": 9, "speed": 2.625, "traits": ["enderport-4"]},
+    "handle": {"durability": -87, "modifier": 0.5, "traits": ["enderpickup"]},
+    "extra": {"durability": 45, "traits": ["enderpickup"]},
+    "bow": {"damage": 5.0, "speed": 0.75, "range": 1.0, "traits": ["enderpickup"]},
+    "core": {"defense": 22.78125, "durability": 5.0, "traits": ["alien_armor"]},
+    "plate": {"durability": 5.0, "modifier": 7.9411764, "toughness": -0.0, "traits": ["alien_armor"]},
+    "trim": {"durability": 5.0, "traits": ["alien_armor"]}
+  },
+  "redstone_alloy": {
+    "id": "redstone_alloy",
+    "color": "ffb12727",
+    "name": "Redstone Alloy",
+    "head": {"durability": 270, "attack": 3.38, "level": 5, "speed": 5.63, "traits": ["shocking", "dire"]},
+    "handle": {"durability": 1, "modifier": 3.0, "traits": ["writable1", "dire"]},
+    "extra": {"durability": 339, "traits": ["crude1", "dire"]},
+    "bow": {"damage": 0.0, "speed": 5.0, "range": 0.8, "traits": ["crude1", "dire"]},
+    "core": {"defense": 11.407501, "durability": 9.0, "traits": ["magnetic1_armor"]},
+    "plate": {"durability": 32.0, "modifier": 47.647057, "toughness": 0.0, "traits": ["magnetic1_armor"]},
+    "trim": {"durability": 32.0, "traits": ["magnetic1_armor"]}
+  },
+  "conductive_iron": {
+    "id": "conductive_iron",
+    "color": "ffab5d5f",
+    "name": "Conductive Iron",
+    "head": {"durability": 160, "attack": 1.88, "level": 8, "speed": 10.13, "traits": ["crude2"]},
+    "handle": {"durability": 150, "modifier": 2.5, "traits": ["lightweight"]},
+    "extra": {"durability": 376, "traits": ["lightweight"]},
+    "bow": {"damage": 2.5, "speed": 1.5, "range": 1.8, "traits": ["lightweight"]},
+    "core": {"defense": 6.345, "durability": 5.0, "traits": ["magnetic1_armor"]},
+    "plate": {"durability": 35.0, "modifier": 39.70588, "toughness": 0.0, "traits": ["magnetic1_armor"]},
+    "trim": {"durability": 35.0, "traits": ["magnetic1_armor"]}
+  },
+  "pulsating_iron": {
+    "id": "pulsating_iron",
+    "color": "ff2c9044",
+    "name": "Pulsating Iron",
+    "head": {"durability": 690, "attack": 3.0, "level": 7, "speed": 9.0, "traits": ["enderport-0"]},
+    "handle": {"durability": 188, "modifier": 1.05, "traits": ["enderport-2"]},
+    "extra": {"durability": 188, "traits": ["enderport-3"]},
+    "bow": {"damage": 8.0, "speed": 0.25, "range": 3.5, "traits": ["enderport-1"]},
+    "core": {"defense": 10.125, "durability": 24.0, "traits": ["enderport_armor"]},
+    "plate": {"durability": 18.0, "modifier": 16.67647, "toughness": 0.0, "traits": ["enderport_armor"]},
+    "trim": {"durability": 18.0, "traits": ["enderport_armor"]}
+  },
+  "dark_steel": {
+    "id": "dark_steel",
+    "color": "ff6c6c6c",
+    "name": "Dark Steel",
+    "head": {"durability": 413, "attack": 6.48, "level": 7, "speed": 5.25, "traits": ["enderference"]},
+    "handle": {"durability": 113, "modifier": 0.9, "traits": ["unnatural"]},
+    "extra": {"durability": 188, "traits": ["dense"]},
+    "bow": {"damage": 9.0, "speed": 0.3, "range": 2.5, "traits": ["dense"]},
+    "core": {"defense": 21.87, "durability": 14.0, "traits": ["mundane1_armor"]},
+    "plate": {"durability": 18.0, "modifier": 14.294118, "toughness": 3.0, "traits": ["shielding_armor"]},
+    "trim": {"durability": 18.0, "traits": ["steady_armor"]}
+  },
+  "soularium": {
+    "id": "soularium",
+    "color": "ff695b4d",
+    "name": "Soularium",
+    "head": {"durability": 875, "attack": 0.75, "level": 5, "speed": 0.75, "traits": ["hellish"]},
+    "handle": {"durability": 1125, "modifier": 0.5, "traits": ["flammable"]},
+    "extra": {"durability": 938, "traits": ["splinters"]},
+    "bow": {"damage": 0.0, "speed": 0.1, "range": 0.5, "traits": ["duritos"]},
+    "string": {"modifier": 2.0, "traits": ["writable1"]},
+    "core": {"defense": 2.53125, "durability": 23.25, "traits": ["haorans_cult_armor"]},
+    "plate": {
+      "durability": 89.0,
+      "modifier": 7.9411764,
+      "toughness": 0.0,
+      "traits": ["haorans_cult_armor"]
+    },
+    "trim": {"durability": 89.0, "traits": ["haorans_cult_armor"]}
+  },
+  "end_steel": {
+    "id": "end_steel",
+    "color": "fffbfcb3",
+    "name": "End Steel",
+    "head": {
+      "durability": 450,
+      "attack": 7.5,
+      "level": 5,
+      "speed": 11.32,
+      "traits": ["enderference", "alien"]
+    },
+    "handle": {"durability": 38, "modifier": 0.9, "traits": ["unnatural"]},
+    "extra": {"durability": 113, "traits": ["unnatural"]},
+    "bow": {"damage": 10.98, "speed": 0.3, "range": 2.5, "traits": ["unnatural"]},
+    "core": {"defense": 37.97, "durability": 32.0, "traits": ["mundane1_armor", "alien_armor"]},
+    "plate": {"durability": 22.0, "modifier": 14.294118, "toughness": 0.0, "traits": ["shielding_armor"]},
+    "trim": {"durability": 22.0, "traits": ["steady_armor"]}
+  },
+  "construction_alloy": {
+    "id": "construction_alloy",
+    "color": "ff29182a",
+    "name": "Iron Alloy",
+    "head": {
+      "durability": 38,
+      "attack": 0.75,
+      "level": 1,
+      "speed": 0.9375,
+      "traits": ["cheapskate", "blindrage"]
+    },
+    "handle": {"durability": 8, "modifier": 0.5, "traits": ["cheapskate", "blindrage"]},
+    "extra": {"durability": 8, "traits": ["cheapskate", "blindrage"]},
+    "bow": {"damage": 0.0, "speed": 3.0, "range": 0.5, "traits": ["cheapskate", "blindrage"]},
+    "core": {"defense": 2.53125, "durability": 1.0, "traits": ["cheap_armor"]},
+    "plate": {"durability": 1.0, "modifier": 7.9411764, "toughness": 0.0, "traits": ["cheap_armor"]},
+    "trim": {"durability": 1.0, "traits": ["cheap_armor"]}
+  },
+  "crude_steel": {"id": "crude_steel", "color": "ffc3b7b1", "name": "material.crude_steel.name"},
+  "crystalline_alloy": {
+    "id": "crystalline_alloy",
+    "color": "ff86d9d9",
+    "name": "material.crystalline_alloy.name"
+  },
+  "melodic_alloy": {"id": "melodic_alloy", "color": "ff845e84", "name": "material.melodic_alloy.name"},
+  "stellar_alloy": {"id": "stellar_alloy", "color": "ffe7eaea", "name": "material.stellar_alloy.name"},
+  "crystalline_pink_slime": {
+    "id": "crystalline_pink_slime",
+    "color": "ff35a8db",
+    "name": "material.crystalline_pink_slime.name"
+  },
+  "energetic_silver": {
+    "id": "energetic_silver",
+    "color": "ff79a5c5",
+    "name": "material.energetic_silver.name"
+  },
+  "vivid_alloy": {"id": "vivid_alloy", "color": "ff4bbad6", "name": "material.vivid_alloy.name"},
+  "nagascale": {
+    "id": "nagascale",
+    "color": "ff325d25",
+    "name": "Naga Scale",
+    "head": {
+      "durability": 345,
+      "attack": 7.23,
+      "level": 1,
+      "speed": 6.675,
+      "traits": ["twilit", "precipitate"]
+    },
+    "bow": {"damage": 2.0, "speed": 0.9, "range": 3.0, "traits": ["twilit", "precipitate"]},
+    "shaft": {"ammo": 20, "modifier": 1.4, "traits": ["twilit", "precipitate"]},
+    "core": {"defense": 18.3, "durability": 12.0, "traits": ["lightweight_armor"]},
+    "plate": {"durability": 0.0, "modifier": 0.0, "toughness": 0.0, "traits": ["lightweight_armor"]},
+    "trim": {"durability": 0.0, "traits": ["lightweight_armor"]}
+  },
+  "steeleaf": {
+    "id": "steeleaf",
+    "color": "ff52873a",
+    "name": "Steeleaf",
+    "head": {
+      "durability": 135,
+      "attack": 4.5,
+      "level": 6,
+      "speed": 5.25,
+      "traits": ["twilit", "synergy", "axing2"]
+    },
+    "handle": {"durability": 75, "modifier": 0.8, "traits": ["twilit", "synergy"]},
+    "extra": {"durability": 68, "traits": ["twilit", "synergy"]},
+    "bow": {"damage": 4.0, "speed": 1.8, "range": 2.25, "traits": ["twilit", "synergy"]},
+    "shaft": {"ammo": 10, "modifier": 0.6, "traits": ["twilit", "synergy"]},
+    "fletching": {"accuracy": 1.0, "modifier": 0.8, "traits": ["twilit", "synergy"]},
+    "core": {"defense": 11.39, "durability": 5.0, "traits": ["synergy"]},
+    "plate": {"durability": 7.0, "modifier": 12.705882, "toughness": 0.0, "traits": ["synergy"]},
+    "trim": {"durability": 7.0, "traits": ["synergy"]}
+  },
+  "fierymetal": {
+    "id": "fierymetal",
+    "color": "fffdd45d",
+    "name": "Fiery",
+    "head": {
+      "durability": 540,
+      "attack": 7.95,
+      "level": 9,
+      "speed": 5.4,
+      "traits": ["twilit", "autosmelt", "superheat", "flammable"]
+    },
+    "handle": {"durability": 300, "modifier": 0.7, "traits": ["twilit", "flammable"]},
+    "extra": {"durability": 150, "traits": ["twilit", "flammable"]},
+    "bow": {"damage": 6.0, "speed": 1.5, "range": 1.35, "traits": ["twilit", "flammable"]},
+    "shaft": {"ammo": 0, "modifier": 0.8, "traits": ["twilit", "flammable"]},
+    "core": {"defense": 26.83125, "durability": 19.0, "traits": ["superhot_armor"]},
+    "plate": {"durability": 14.0, "modifier": 11.117647, "toughness": 0.0, "traits": ["superhot_armor"]},
+    "trim": {"durability": 14.0, "traits": ["superhot_armor"]}
+  },
+  "knightmetal": {
+    "id": "knightmetal",
+    "color": "ffc4e6ae",
+    "name": "Knightly",
+    "head": {
+      "durability": 675,
+      "attack": 9.5,
+      "level": 6,
+      "speed": 5.25,
+      "traits": ["twilit", "stalwart", "axing"]
+    },
+    "handle": {"durability": 75, "modifier": 1.25, "traits": ["twilit", "stalwart"]},
+    "extra": {"durability": 600, "traits": ["twilit", "stalwart"]},
+    "core": {"defense": 32.0625, "durability": 23.0, "traits": ["dramatic_armor"]},
+    "plate": {"durability": 57.0, "modifier": 19.85294, "toughness": 0.0, "traits": ["steady_armor"]},
+    "trim": {"durability": 57.0, "traits": ["steady_armor"]}
+  },
+  "raven_feather": {
+    "id": "raven_feather",
+    "color": "ff474c52",
+    "name": "Raven Feather",
+    "fletching": {"accuracy": 0.95, "modifier": 1.15, "traits": ["twilit", "veiled"]}
+  },
+  "stone": {
+    "id": "stone",
+    "color": "ff999999",
+    "name": "Stone",
+    "head": {"durability": 90, "attack": 2.25, "level": 0, "speed": 1.5, "traits": ["cheapskate"]},
+    "handle": {"durability": -87, "modifier": 0.5, "traits": ["cheap"]},
+    "extra": {"durability": 15, "traits": ["cheap"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["cheap"]},
+    "core": {"defense": 3.75, "durability": 7.0, "traits": ["cheapskate_armor"]},
+    "plate": {"durability": -5.0, "modifier": 0.5, "toughness": 0.0, "traits": ["cheap_armor"]},
+    "trim": {"durability": 1.0, "traits": ["cheap_armor"]}
+  },
+  "flint": {
+    "id": "flint",
+    "color": "ff696969",
+    "name": "Flint",
+    "head": {"durability": 113, "attack": 2.175, "level": 0, "speed": 3.75, "traits": ["crude2"]},
+    "handle": {"durability": -105, "modifier": 0.6, "traits": ["crude1"]},
+    "extra": {"durability": 30, "traits": ["crude1"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["crude1"]},
+    "core": {"defense": 3.375, "durability": 8.0, "traits": ["mundane2_armor"]},
+    "plate": {"durability": -9.0, "modifier": 0.6, "toughness": 0.75, "traits": ["mundane1_armor"]},
+    "trim": {"durability": 2.0, "traits": ["mundane1_armor"]}
+  },
+  "cactus": {
+    "id": "cactus",
+    "color": "ff00a10f",
+    "name": "Cactus",
+    "head": {"durability": 158, "attack": 3.55, "level": 0, "speed": 3.0, "traits": ["prickly"]},
+    "handle": {"durability": 15, "modifier": 0.85, "traits": ["spiky"]},
+    "extra": {"durability": 38, "traits": ["spiky"]},
+    "bow": {"damage": 0.0, "speed": 1.05, "range": 0.9, "traits": ["spiky"]},
+    "core": {"defense": 7.5, "durability": 10.0, "traits": ["spiny_armor"]},
+    "plate": {"durability": 1.0, "modifier": 0.85, "toughness": 0.0, "traits": ["spiny_armor"]},
+    "trim": {"durability": 3.0, "traits": ["spiny_armor"]}
+  },
+  "bone": {
+    "id": "bone",
+    "color": "ffede6bf",
+    "name": "Bone",
+    "head": {"durability": 150, "attack": 1.875, "level": 0, "speed": 3.8175, "traits": ["splintering"]},
+    "handle": {"durability": 38, "modifier": 1.2, "traits": ["fractured"]},
+    "extra": {"durability": 49, "traits": ["fractured"]},
+    "bow": {"damage": 0.0, "speed": 0.95, "range": 1.15, "traits": ["fractured"]},
+    "shaft": {"ammo": 5, "modifier": 0.9, "traits": ["splitting"]},
+    "core": {"defense": 3.0, "durability": 9.0, "traits": ["calcic_armor"]},
+    "plate": {"durability": 3.0, "modifier": 1.1, "toughness": 0.75, "traits": ["skeletal_armor"]},
+    "trim": {"durability": 4.0, "traits": ["skeletal_armor"]}
+  },
+  "obsidian": {
+    "id": "obsidian",
+    "color": "ff601cc4",
+    "name": "Obsidian",
+    "head": {"durability": 104, "attack": 3.15, "level": 6, "speed": 5.3025, "traits": ["duritos"]},
+    "handle": {"durability": -175, "modifier": 0.9, "traits": ["duritos"]},
+    "extra": {"durability": 68, "traits": ["duritos"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["duritos"]},
+    "core": {"defense": 12.15, "durability": 8.0, "traits": ["duritos_ranch_armor"]},
+    "plate": {"durability": -14.0, "modifier": 0.9, "toughness": 2.625, "traits": ["duritos_ranch_armor"]},
+    "trim": {"durability": 5.0, "traits": ["duritos_ranch_armor"]}
+  },
+  "prismarine": {
+    "id": "prismarine",
+    "color": "ff7edebc",
+    "name": "Prismarine",
+    "head": {
+      "durability": 323,
+      "attack": 4.65,
+      "level": 3,
+      "speed": 4.125,
+      "traits": ["jagged", "aquadynamic"]
+    },
+    "handle": {"durability": -262, "modifier": 0.6, "traits": ["aquadynamic", "morganlefay"]},
+    "extra": {"durability": 75, "traits": ["aquadynamic", "morganlefay"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["aquadynamic", "morganlefay"]},
+    "core": {"defense": 14.1, "durability": 12.0, "traits": ["aquaspeed_armor", "rough_armor"]},
+    "plate": {"durability": -17.0, "modifier": 0.6, "toughness": 1.5, "traits": ["aquaspeed_armor"]},
+    "trim": {"durability": 6.0, "traits": ["aquaspeed_armor"]}
+  },
+  "endstone": {
+    "id": "endstone",
+    "color": "ffe0d890",
+    "name": "End",
+    "head": {"durability": 315, "attack": 2.4225, "level": 5, "speed": 2.4225, "traits": ["alien"]},
+    "handle": {"durability": 0, "modifier": 0.85, "traits": ["enderference"]},
+    "extra": {"durability": 32, "traits": ["enderference"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["enderference"]},
+    "core": {"defense": 6.75, "durability": 12.0, "traits": ["alien_armor"]},
+    "plate": {"durability": 0.0, "modifier": 0.85, "toughness": 0.75, "traits": ["enderport_armor"]},
+    "trim": {"durability": 2.0, "traits": ["enderport_armor"]}
+  },
+  "paper": {
+    "id": "paper",
+    "color": "ffffffff",
+    "name": "Paper",
+    "head": {"durability": 9, "attack": 0.0375, "level": 0, "speed": 0.3825, "traits": ["writable2"]},
+    "handle": {"durability": 4, "modifier": 0.1, "traits": ["writable1"]},
+    "extra": {"durability": 11, "traits": ["writable1"]},
+    "bow": {"damage": -2.0, "speed": 1.5, "range": 0.4, "traits": ["writable1"]},
+    "core": {"defense": 0.375, "durability": 0.0, "traits": ["writable2"]},
+    "plate": {"durability": 0.0, "modifier": 0.1, "toughness": 0.0, "traits": ["writable1"]},
+    "trim": {"durability": 1.0, "traits": ["writable1"]}
+  },
+  "sponge": {
+    "id": "sponge",
+    "color": "ffcacc4e",
+    "name": "Sponge",
+    "head": {"durability": 788, "attack": 0.0, "level": 1, "speed": 2.265, "traits": ["squeaky"]},
+    "handle": {"durability": 188, "modifier": 1.2, "traits": ["squeaky"]},
+    "extra": {"durability": 188, "traits": ["squeaky"]},
+    "bow": {"damage": 0.0, "speed": 1.15, "range": 0.75, "traits": ["squeaky"]},
+    "core": {"defense": 0.75, "durability": 16.0, "traits": ["absorbent_armor"]},
+    "plate": {"durability": 10.0, "modifier": 1.2, "toughness": 3.75, "traits": ["absorbent_armor"]},
+    "trim": {"durability": 10.0, "traits": ["absorbent_armor"]}
+  },
+  "firewood": {
+    "id": "firewood",
+    "color": "ffcc5300",
+    "name": "Firewood",
+    "head": {"durability": 413, "attack": 4.125, "level": 2, "speed": 4.5, "traits": ["autosmelt"]},
+    "handle": {"durability": -350, "modifier": 1.0, "traits": ["autosmelt"]},
+    "extra": {"durability": 113, "traits": ["autosmelt"]},
+    "bow": {"damage": 0.0, "speed": 1.0, "range": 1.0, "traits": ["autosmelt"]},
+    "core": {"defense": 13.125, "durability": 13.0, "traits": ["combustible_armor"]},
+    "plate": {"durability": -21.0, "modifier": 1.0, "toughness": 0.375, "traits": ["combustible_armor"]},
+    "trim": {"durability": 8.0, "traits": ["combustible_armor"]}
+  },
+  "iron": {
+    "id": "iron",
+    "color": "ffcacaca",
+    "name": "Iron",
+    "head": {"durability": 153, "attack": 3.0, "level": 3, "speed": 4.5, "traits": ["magnetic2"]},
+    "handle": {"durability": 45, "modifier": 0.85, "traits": ["magnetic1"]},
+    "extra": {"durability": 38, "traits": ["magnetic1"]},
+    "bow": {"damage": 7.0, "speed": 0.5, "range": 1.5, "traits": ["magnetic1"]},
+    "core": {"defense": 11.25, "durability": 9.0, "traits": ["magnetic2_armor"]},
+    "plate": {"durability": 4.0, "modifier": 0.85, "toughness": 0.0, "traits": ["magnetic1_armor"]},
+    "trim": {"durability": 3.0, "traits": ["magnetic1_armor"]}
+  },
+  "pigiron": {
+    "id": "pigiron",
+    "color": "ffef9e9b",
+    "name": "Pig Iron",
+    "head": {
+      "durability": 342,
+      "attack": 3.375,
+      "level": 5,
+      "speed": 4.65,
+      "traits": ["baconlicious", "tasty"]
+    },
+    "handle": {"durability": 1, "modifier": 1.44, "traits": ["tasty"]},
+    "extra": {"durability": 154, "traits": ["tasty"]},
+    "bow": {"damage": 7.0, "speed": 0.6, "range": 1.4, "traits": ["tasty"]},
+    "core": {"defense": 12.525, "durability": 11.0, "traits": ["baconlicious_armor", "tasty_armor"]},
+    "plate": {"durability": 0.0, "modifier": 1.2, "toughness": 0.75, "traits": ["tasty_armor"]},
+    "trim": {"durability": 8.0, "traits": ["tasty_armor"]}
+  },
+  "knightslime": {
+    "id": "knightslime",
+    "color": "fff18ff0",
+    "name": "Knightslime",
+    "head": {"durability": 638, "attack": 3.825, "level": 6, "speed": 4.35, "traits": ["crumbling"]},
+    "handle": {"durability": 475, "modifier": 0.5, "traits": ["unnatural"]},
+    "extra": {"durability": 94, "traits": ["unnatural"]},
+    "bow": {"damage": 2.0, "speed": 0.4, "range": 2.0, "traits": ["unnatural"]},
+    "core": {"defense": 12.825, "durability": 15.0, "traits": ["dramatic_armor"]},
+    "plate": {"durability": 13.0, "modifier": 0.5, "toughness": 0.75, "traits": ["invigorating_armor"]},
+    "trim": {"durability": 7.0, "traits": ["invigorating_armor"]}
+  },
+  "slime": {
+    "id": "slime",
+    "color": "ff82c873",
+    "name": "Green Slime",
+    "head": {"durability": 750, "attack": 1.35, "level": 1, "speed": 3.1799996, "traits": ["slimey_green"]},
+    "handle": {"durability": 0, "modifier": 0.7, "traits": ["slimey_green"]},
+    "extra": {"durability": 263, "traits": ["slimey_green"]},
+    "bow": {"damage": 0.0, "speed": 0.85, "range": 1.3, "traits": ["slimey_green"]},
+    "core": {"defense": 1.5, "durability": 16.0, "traits": ["slimey_green_armor", "bouncy_armor"]},
+    "plate": {"durability": 0.0, "modifier": 0.7, "toughness": 1.5, "traits": ["slimey_green_armor"]},
+    "trim": {"durability": 11.0, "traits": ["slimey_green_armor"]}
+  },
+  "blueslime": {
+    "id": "blueslime",
+    "color": "ff74c8c7",
+    "name": "Blue Slime",
+    "head": {"durability": 585, "attack": 1.35, "level": 1, "speed": 3.0225003, "traits": ["slimey_blue"]},
+    "handle": {"durability": -87, "modifier": 1.3, "traits": ["slimey_blue"]},
+    "extra": {"durability": 150, "traits": ["slimey_blue"]},
+    "bow": {"damage": 0.0, "speed": 1.05, "range": 1.0, "traits": ["slimey_blue"]},
+    "core": {"defense": 1.35, "durability": 15.0, "traits": ["slimey_blue_armor", "bouncy_armor"]},
+    "plate": {"durability": -5.0, "modifier": 1.3, "toughness": 1.6875, "traits": ["slimey_blue_armor"]},
+    "trim": {"durability": 9.0, "traits": ["slimey_blue_armor"]}
+  },
+  "magmaslime": {
+    "id": "magmaslime",
+    "color": "ffff960d",
+    "name": "Magma Slime",
+    "head": {"durability": 450, "attack": 5.25, "level": 5, "speed": 1.575, "traits": ["superheat"]},
+    "handle": {"durability": -350, "modifier": 0.85, "traits": ["flammable"]},
+    "extra": {"durability": 113, "traits": ["flammable"]},
+    "bow": {"damage": 1.0, "speed": 1.1, "range": 1.05, "traits": ["flammable"]},
+    "core": {"defense": 14.55, "durability": 14.0, "traits": ["autoforge_armor"]},
+    "plate": {"durability": -21.0, "modifier": 0.85, "toughness": 1.875, "traits": ["superhot_armor"]},
+    "trim": {"durability": 8.0, "traits": ["superhot_armor"]}
+  },
+  "alubrass": {
+    "id": "alubrass",
+    "color": "fff0d467",
+    "name": "Aluminum Brass",
+    "head": {"durability": 338, "attack": 2.625, "level": 2, "speed": 5.25, "traits": ["depthdigger"]},
+    "handle": {"durability": 60, "modifier": 1.1, "traits": ["depthdigger"]},
+    "extra": {"durability": 68, "traits": ["depthdigger"]},
+    "bow": {"damage": 6.0, "speed": 0.45, "range": 1.5, "traits": ["depthdigger"]},
+    "core": {"defense": 8.859375, "durability": 11.0, "traits": ["depthdigger"]},
+    "plate": {"durability": 7.0, "modifier": 17.470587, "toughness": 0.0, "traits": ["depthdigger"]},
+    "trim": {"durability": 7.0, "traits": ["depthdigger"]}
+  },
+  "netherrack": {
+    "id": "netherrack",
+    "color": "ffb84f4f",
+    "name": "Netherrack",
+    "head": {
+      "durability": 203,
+      "attack": 2.25,
+      "level": 3,
+      "speed": 3.375,
+      "traits": ["aridiculous", "hellish"]
+    },
+    "handle": {"durability": -262, "modifier": 0.85, "traits": ["hellish"]},
+    "extra": {"durability": 56, "traits": ["hellish"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["hellish"]},
+    "core": {"defense": 3.975, "durability": 11.0, "traits": ["aridiculous_armor", "infernal_armor"]},
+    "plate": {"durability": -17.0, "modifier": 0.85, "toughness": 0.0, "traits": ["infernal_armor"]},
+    "trim": {"durability": 5.0, "traits": ["infernal_armor"]}
+  },
+  "cobalt": {
+    "id": "cobalt",
+    "color": "ff2882d4",
+    "name": "Cobalt",
+    "head": {"durability": 585, "attack": 3.075, "level": 7, "speed": 9.0, "traits": ["momentum"]},
+    "handle": {"durability": 75, "modifier": 0.9, "traits": ["lightweight"]},
+    "extra": {"durability": 225, "traits": ["lightweight"]},
+    "bow": {"damage": 3.0, "speed": 0.75, "range": 1.3, "traits": ["lightweight"]},
+    "core": {"defense": 11.7, "durability": 15.0, "traits": ["featherweight_armor"]},
+    "plate": {"durability": 6.0, "modifier": 0.9, "toughness": 0.0, "traits": ["lightweight_armor"]},
+    "trim": {"durability": 11.0, "traits": ["lightweight_armor"]}
+  },
+  "ardite": {
+    "id": "ardite",
+    "color": "ffd14210",
+    "name": "Ardite",
+    "head": {"durability": 743, "attack": 2.7, "level": 7, "speed": 2.625, "traits": ["stonebound"]},
+    "handle": {"durability": -350, "modifier": 1.4, "traits": ["petramor"]},
+    "extra": {"durability": 338, "traits": ["petramor"]},
+    "bow": {"damage": 1.0, "speed": 0.45, "range": 0.8, "traits": ["petramor"]},
+    "core": {"defense": 9.75, "durability": 16.0, "traits": ["subterranean_armor"]},
+    "plate": {"durability": -21.0, "modifier": 1.4, "toughness": 3.0, "traits": ["petravidity_armor"]},
+    "trim": {"durability": 12.0, "traits": ["petravidity_armor"]}
+  },
+  "manyullyn": {
+    "id": "manyullyn",
+    "color": "ffa15cf8",
+    "name": "Manyullyn",
+    "head": {"durability": 615, "attack": 6.54, "level": 8, "speed": 5.265, "traits": ["insatiable"]},
+    "handle": {"durability": 188, "modifier": 0.5, "traits": ["coldblooded"]},
+    "extra": {"durability": 38, "traits": ["coldblooded"]},
+    "bow": {"damage": 4.0, "speed": 0.65, "range": 1.2, "traits": ["coldblooded"]},
+    "core": {"defense": 15.0, "durability": 15.0, "traits": ["vengeful_armor"]},
+    "plate": {"durability": 10.0, "modifier": 1.0, "toughness": 2.25, "traits": ["prideful_armor"]},
+    "trim": {"durability": 3.0, "traits": ["prideful_armor"]}
+  },
+  "bloodbone": {
+    "id": "bloodbone",
+    "color": "ffc70000",
+    "name": "Bloody Bone",
+    "head": {
+      "durability": 150,
+      "attack": 1.875,
+      "level": 1,
+      "speed": 3.8175,
+      "traits": ["raging2", "splintering"]
+    },
+    "handle": {"durability": 38, "modifier": 1.1, "traits": ["raging1", "fractured"]},
+    "extra": {"durability": 49, "traits": ["raging1", "fractured"]},
+    "bow": {"damage": 0.0, "speed": 0.95, "range": 1.15, "traits": ["raging1", "fractured"]},
+    "core": {"defense": 6.328125, "durability": 5.0, "traits": ["raging1", "fractured"]},
+    "plate": {
+      "durability": 5.0,
+      "modifier": 17.470587,
+      "toughness": 0.0,
+      "traits": ["raging1", "fractured"]
+    },
+    "trim": {"durability": 5.0, "traits": ["raging1", "fractured"]}
+  },
+  "copper": {
+    "id": "copper",
+    "color": "ffed9f07",
+    "name": "Copper",
+    "head": {"durability": 158, "attack": 2.25, "level": 1, "speed": 3.975, "traits": ["established"]},
+    "handle": {"durability": 23, "modifier": 1.05, "traits": ["established"]},
+    "extra": {"durability": 75, "traits": ["established"]},
+    "bow": {"damage": 5.0, "speed": 0.6, "range": 1.45, "traits": ["established"]},
+    "core": {"defense": 6.0, "durability": 9.0, "traits": ["ambitious_armor"]},
+    "plate": {"durability": 2.0, "modifier": 1.05, "toughness": 0.0, "traits": ["ambitious_armor"]},
+    "trim": {"durability": 6.0, "traits": ["ambitious_armor"]}
+  },
+  "bronze": {
+    "id": "bronze",
+    "color": "ffe3bd68",
+    "name": "Bronze",
+    "head": {"durability": 323, "attack": 2.625, "level": 3, "speed": 5.1, "traits": ["dense"]},
+    "handle": {"durability": 53, "modifier": 1.1, "traits": ["dense"]},
+    "extra": {"durability": 60, "traits": ["dense"]},
+    "bow": {"damage": 6.0, "speed": 0.55, "range": 1.5, "traits": ["dense"]},
+    "core": {"defense": 9.0, "durability": 12.0, "traits": ["dense_armor"]},
+    "plate": {"durability": 5.0, "modifier": 1.1, "toughness": 0.9375, "traits": ["dense_armor"]},
+    "trim": {"durability": 5.0, "traits": ["dense_armor"]}
+  },
+  "lead": {
+    "id": "lead",
+    "color": "ff4d4968",
+    "name": "Lead",
+    "head": {
+      "durability": 326,
+      "attack": 2.625,
+      "level": 4,
+      "speed": 3.9375,
+      "traits": ["poisonous", "heavy"]
+    },
+    "handle": {"durability": -87, "modifier": 0.7, "traits": ["poisonous", "heavy"]},
+    "extra": {"durability": 75, "traits": ["poisonous", "heavy"]},
+    "bow": {"damage": 3.0, "speed": 0.4, "range": 1.3, "traits": ["poisonous", "heavy"]},
+    "core": {"defense": 8.25, "durability": 12.0, "traits": ["heavy_armor", "shielding_armor"]},
+    "plate": {
+      "durability": -5.0,
+      "modifier": 0.7,
+      "toughness": 1.5,
+      "traits": ["heavy_armor", "shielding_armor"]
+    },
+    "trim": {"durability": 6.0, "traits": ["heavy_armor", "shielding_armor"]}
+  },
+  "silver": {
+    "id": "silver",
+    "color": "ffd1ecf6",
+    "name": "Silver",
+    "head": {"durability": 188, "attack": 3.75, "level": 4, "speed": 3.75, "traits": ["holy"]},
+    "handle": {"durability": 38, "modifier": 0.95, "traits": ["holy"]},
+    "extra": {"durability": 113, "traits": ["holy"]},
+    "bow": {"damage": 2.0, "speed": 1.2, "range": 0.8, "traits": ["holy"]},
+    "core": {"defense": 12.75, "durability": 10.0, "traits": ["blessed_armor"]},
+    "plate": {"durability": 3.0, "modifier": 0.95, "toughness": 1.5, "traits": ["blessed_armor"]},
+    "trim": {"durability": 8.0, "traits": ["blessed_armor"]}
+  },
+  "electrum": {
+    "id": "electrum",
+    "color": "ffe8db49",
+    "name": "Electrum",
+    "head": {"durability": 38, "attack": 2.25, "level": 4, "speed": 9.0, "traits": ["shocking"]},
+    "handle": {"durability": -44, "modifier": 1.1, "traits": ["shocking"]},
+    "extra": {"durability": 188, "traits": ["shocking"]},
+    "bow": {"damage": 4.0, "speed": 1.5, "range": 1.0, "traits": ["shocking"]},
+    "core": {"defense": 6.075, "durability": 3.0, "traits": ["voltaic_armor"]},
+    "plate": {"durability": -2.0, "modifier": 1.1, "toughness": 0.0, "traits": ["voltaic_armor"]},
+    "trim": {"durability": 10.0, "traits": ["voltaic_armor"]}
+  },
+  "steel": {
+    "id": "steel",
+    "color": "ffa7a7a7",
+    "name": "Steel",
+    "head": {"durability": 405, "attack": 4.5, "level": 5, "speed": 5.25, "traits": ["sharp"]},
+    "handle": {"durability": 113, "modifier": 0.9, "traits": ["stiff"]},
+    "extra": {"durability": 19, "traits": ["stiff"]},
+    "bow": {"damage": 9.0, "speed": 0.4, "range": 2.0, "traits": ["stiff"]},
+    "core": {"defense": 13.8, "durability": 13.0, "traits": ["steady_armor"]},
+    "plate": {"durability": 8.0, "modifier": 0.9, "toughness": 3.375, "traits": ["indomitable_armor"]},
+    "trim": {"durability": 1.0, "traits": ["indomitable_armor"]}
+  },
+  "string": {
+    "id": "string",
+    "color": "ffeeeeee",
+    "name": "String",
+    "string": {"modifier": 1.0, "traits": []}
+  },
+  "slimevine_blue": {
+    "id": "slimevine_blue",
+    "color": "ff74c8c7",
+    "name": "Blue Slimevine",
+    "string": {"modifier": 1.1, "traits": []}
+  },
+  "slimevine_purple": {
+    "id": "slimevine_purple",
+    "color": "ffc873c8",
+    "name": "Purple Slimevine",
+    "string": {"modifier": 1.1, "traits": []}
+  },
+  "vine": {"id": "vine", "color": "ff40a10f", "name": "Vines", "string": {"modifier": 1.05, "traits": []}},
+  "blaze": {
+    "id": "blaze",
+    "color": "ffffc100",
+    "name": "Blazerod",
+    "shaft": {"ammo": 3, "modifier": 0.8, "traits": ["hovering"]}
+  },
+  "reed": {
+    "id": "reed",
+    "color": "ffaadb74",
+    "name": "Reeds",
+    "shaft": {"ammo": 10, "modifier": 1.05, "traits": ["breakable"]}
+  },
+  "ice": {
+    "id": "ice",
+    "color": "ff97d7e0",
+    "name": "Ice",
+    "shaft": {"ammo": 0, "modifier": 0.95, "traits": ["freezing"]}
+  },
+  "endrod": {
+    "id": "endrod",
+    "color": "ffe8ffd6",
+    "name": "Endrod",
+    "shaft": {"ammo": 1, "modifier": 0.7, "traits": ["endspeed"]}
+  },
+  "feather": {
+    "id": "feather",
+    "color": "ffeeeeee",
+    "name": "Feather",
+    "fletching": {"accuracy": 1.0, "modifier": 1.0, "traits": []}
+  },
+  "slimeleaf_blue": {
+    "id": "slimeleaf_blue",
+    "color": "ff74c8c7",
+    "name": "Blue Slimeleaf",
+    "fletching": {"accuracy": 0.8, "modifier": 1.25, "traits": []}
+  },
+  "slimeleaf_orange": {
+    "id": "slimeleaf_orange",
+    "color": "ffff960d",
+    "name": "Magma Slimeleaf",
+    "fletching": {"accuracy": 0.8, "modifier": 1.25, "traits": []}
+  },
+  "slimeleaf_purple": {
+    "id": "slimeleaf_purple",
+    "color": "ffc873c8",
+    "name": "Purple Slimeleaf",
+    "fletching": {"accuracy": 0.8, "modifier": 1.25, "traits": []}
+  },
+  "leaf": {
+    "id": "leaf",
+    "color": "ff1d730c",
+    "name": "Leaf",
+    "fletching": {"accuracy": 0.5, "modifier": 1.5, "traits": []}
+  },
+  "treatedwood": {
+    "id": "treatedwood",
+    "color": "ff653522",
+    "name": "Treated Wood",
+    "head": {"durability": 100, "attack": 3.0, "level": 2, "speed": 4.0, "traits": ["ecological"]},
+    "handle": {"durability": 91, "modifier": 1.25, "traits": ["ecological"]},
+    "extra": {"durability": 15, "traits": ["ecological"]},
+    "bow": {"damage": 0.0, "speed": 1.0, "range": 1.125, "traits": ["ecological"]},
+    "shaft": {"ammo": 0, "modifier": 1.2, "traits": ["ecological"]},
+    "core": {"defense": 10.125, "durability": 3.0, "traits": ["ecological"]},
+    "plate": {"durability": 2.0, "modifier": 14.29, "toughness": 0.0, "traits": ["ecological"]},
+    "trim": {"durability": 2.0, "traits": ["ecological"]}
+  },
+  "hemp": {
+    "id": "hemp",
+    "color": "ffa68b78",
+    "name": "Hemp Fiber",
+    "string": {"modifier": 1.0, "traits": ["tconevo.modifiable1"]}
+  },
+  "fireproof": {
+    "id": "fireproof",
+    "color": "ffa64d00",
+    "name": "Fireproof",
+    "head": {"durability": 100, "attack": 3.0, "level": 3, "speed": 4.0, "traits": ["tconevo.infinitum"]},
+    "handle": {"durability": 100, "modifier": 1.5, "traits": ["tconevo.infinitum"]},
+    "extra": {"durability": 50, "traits": ["tconevo.infinitum"]},
+    "bow": {"damage": 0.0, "speed": 0.8, "range": 1.0, "traits": ["tconevo.infinitum"]},
+    "core": {"defense": 10.0, "durability": 3.0, "traits": ["tconevo.infinitum"]},
+    "plate": {"durability": 20.0, "modifier": 1.0, "toughness": 1.0, "traits": ["tconevo.infinitum"]},
+    "trim": {"durability": 4.0, "traits": ["tconevo.infinitum"]}
+  },
+  "spectre": {
+    "id": "spectre",
+    "color": "ff9cc1ce",
+    "name": "Spectre",
+    "head": {"durability": 400, "attack": 6.0, "level": 7, "speed": 4.2, "traits": ["spectre"]},
+    "handle": {"durability": -50, "modifier": 1.4, "traits": ["spectre"]},
+    "extra": {"durability": 64, "traits": ["spectre"]},
+    "bow": {"damage": 2.5, "speed": 0.6666667, "range": 1.0, "traits": ["spectre"]},
+    "core": {"defense": 23.3, "durability": 200.0, "traits": ["spectre_armor"]},
+    "plate": {"durability": 100.0, "modifier": 1.6, "toughness": 2.0, "traits": ["spectre_armor"]},
+    "trim": {"durability": 70.0, "traits": ["spectre_armor"]}
+  },
+  "spectre_string": {
+    "id": "spectre_string",
+    "color": "ff90a4ae",
+    "name": "Spectre String",
+    "string": {"modifier": 2.2, "traits": []}
+  },
+  "alpha_fur": {
+    "id": "alpha_fur",
+    "color": "ff2196f3",
+    "name": "Alpha Fur",
+    "head": {
+      "durability": 300,
+      "attack": 1.0,
+      "level": 1,
+      "speed": 2.0,
+      "traits": ["alpha_fur", "ecological"]
+    },
+    "handle": {"durability": 100, "modifier": 0.1, "traits": ["alpha_fur", "ecological"]},
+    "extra": {"durability": 80, "traits": ["alpha_fur", "ecological"]},
+    "bow": {"damage": 1.0, "speed": 1.0, "range": 0.3, "traits": ["alpha_fur", "ecological"]},
+    "core": {"defense": 3.375, "durability": 11.0, "traits": ["alpha_fur_armor", "ecological_armor"]},
+    "plate": {
+      "durability": 8.0,
+      "modifier": 1.5882353,
+      "toughness": 0.0,
+      "traits": ["alpha_fur_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 8.0, "traits": ["alpha_fur_armor", "ecological_armor"]}
+  },
+  "heavy": {
+    "id": "heavy",
+    "color": "ff444450",
+    "name": "Heavy",
+    "head": {"durability": -200, "attack": 15.0, "level": 5, "speed": 0.1, "traits": ["heavy"]},
+    "handle": {"durability": -10, "modifier": 0.5, "traits": ["grinding_armor"]},
+    "extra": {"durability": -40, "traits": ["grinding_armor"]},
+    "bow": {"damage": 15.0, "speed": 0.1, "range": 0.1, "traits": ["grinding_armor"]},
+    "shaft": {"ammo": -10, "modifier": 0.2, "traits": ["grinding_armor"]},
+    "core": {"defense": 2.5, "durability": 10.0, "traits": ["heavy"]},
+    "plate": {"durability": 5.0, "modifier": 0.3, "toughness": 0.0, "traits": ["heavy"]},
+    "trim": {"durability": 0.4, "traits": ["grinding_armor"]}
+  },
+  "mithrillium": {
+    "id": "mithrillium",
+    "color": "ff2b86fc",
+    "name": "Mithrillium",
+    "head": {
+      "durability": 1000,
+      "attack": 8.5,
+      "level": 11,
+      "speed": 7.5,
+      "traits": ["vis_vacuum", "vis_equilibrium"]
+    },
+    "handle": {"durability": -100, "modifier": 1.5, "traits": ["vis_siphon"]},
+    "extra": {"durability": 50, "traits": ["vis_siphon"]},
+    "bow": {"damage": 1.0, "speed": 1.0, "range": 3.0, "traits": ["vis_siphon"]},
+    "core": {"defense": 27.5, "durability": 9.0, "traits": ["vis_siphon_armor", "vis_equilibrium_armor"]},
+    "plate": {"durability": 12.5, "modifier": 12.3, "toughness": 3.0, "traits": ["vis_siphon_armor"]},
+    "trim": {"durability": 5.0, "traits": ["vis_siphon_armor"]}
+  },
+  "adaminite": {
+    "id": "adaminite",
+    "color": "ffaa002d",
+    "name": "Adaminite",
+    "head": {
+      "durability": 666,
+      "attack": 21.5,
+      "level": 12,
+      "speed": 5.5,
+      "traits": ["forbidden", "possessed"]
+    },
+    "handle": {"durability": 60, "modifier": 0.6, "traits": ["possessed"]},
+    "extra": {"durability": 666, "traits": ["possessed"]},
+    "bow": {"damage": 6.6, "speed": 1.66, "range": 1.5, "traits": ["forbidden"]},
+    "core": {
+      "defense": 36.6,
+      "durability": 6.0,
+      "traits": ["void_shell_armor", "eldritch_retribution_armor", "porous_armor"]
+    },
+    "plate": {"durability": 6.6, "modifier": 16.6, "toughness": 6.6, "traits": ["porous_armor"]},
+    "trim": {"durability": 6.0, "traits": ["gaze_armor", "porous_armor"]}
+  },
+  "mithminite": {
+    "id": "mithminite",
+    "color": "ffff80b7",
+    "name": "Mithminite",
+    "head": {"durability": 1420, "attack": 12.5, "level": 12, "speed": 9.5, "traits": ["researcher"]},
+    "handle": {"durability": 0, "modifier": 2.1, "traits": []},
+    "extra": {"durability": 420, "traits": []},
+    "bow": {"damage": 4.2, "speed": 2.4, "range": 3.0, "traits": []},
+    "core": {"defense": 42.0, "durability": 14.0, "traits": ["first_stand_armor"]},
+    "plate": {"durability": 42.0, "modifier": 24.0, "toughness": 0.0, "traits": ["robust_armor"]},
+    "trim": {"durability": 42.0, "traits": ["robust_armor"]}
+  },
+  "dragonbone": {
+    "id": "dragonbone",
+    "color": "ffb7b29d",
+    "name": "Dragon Bone",
+    "head": {"durability": 113, "attack": 2.25, "level": 3, "speed": 1.13, "traits": ["splintering2"]},
+    "handle": {"durability": 49, "modifier": 1.1, "traits": ["fractured2"]},
+    "extra": {"durability": 75, "traits": ["fractured2"]},
+    "bow": {"damage": 4.0, "speed": 0.6, "range": 1.2, "traits": ["fractured2"]},
+    "shaft": {"ammo": 2, "modifier": 1.3, "traits": ["splitting2"]},
+    "core": {"defense": 7.59375, "durability": 4.0, "traits": ["skeletal_armor"]},
+    "plate": {"durability": 7.0, "modifier": 17.470587, "toughness": 0.0, "traits": ["skeletal_armor"]},
+    "trim": {"durability": 7.0, "traits": ["calcic_armor"]}
+  },
+  "desert_myrmex": {
+    "id": "desert_myrmex",
+    "color": "ff783b0c",
+    "name": "Desert Myrmex Chitin",
+    "head": {"durability": 300, "attack": 12.13, "level": 2, "speed": 3.0, "traits": ["hive_defender"]},
+    "handle": {"durability": 225, "modifier": 0.7, "traits": ["poisonous"]},
+    "extra": {"durability": 113, "traits": ["poisonous"]},
+    "bow": {"damage": 2.0, "speed": 0.5, "range": 0.7, "traits": ["poisonous"]},
+    "core": {"defense": 37.5, "durability": 11.0, "traits": ["vengeful_armor"]},
+    "plate": {"durability": 11.0, "modifier": 11.117647, "toughness": 0.0, "traits": ["vengeful_armor"]},
+    "trim": {"durability": 11.0, "traits": ["vengeful_armor"]}
+  },
+  "jungle_myrmex": {
+    "id": "jungle_myrmex",
+    "color": "ff267a72",
+    "name": "Jungle Myrmex Chitin",
+    "head": {"durability": 300, "attack": 12.13, "level": 2, "speed": 3.0, "traits": ["hive_defender"]},
+    "handle": {"durability": 225, "modifier": 0.7, "traits": ["poisonous"]},
+    "extra": {"durability": 113, "traits": ["poisonous"]},
+    "bow": {"damage": 2.0, "speed": 0.5, "range": 0.7, "traits": ["poisonous"]},
+    "core": {"defense": 37.5, "durability": 11.0, "traits": ["vengeful_armor"]},
+    "plate": {"durability": 11.0, "modifier": 11.117647, "toughness": 0.0, "traits": ["vengeful_armor"]},
+    "trim": {"durability": 11.0, "traits": ["vengeful_armor"]}
+  },
+  "dragonsteel_fire": {
+    "id": "dragonsteel_fire",
+    "color": "ffccbbc4",
+    "name": "Fire Dragonsteel",
+    "head": {"durability": 1125, "attack": 26.25, "level": 9, "speed": 5.25, "traits": ["flame2"]},
+    "handle": {"durability": 300, "modifier": 0.4, "traits": ["sharp"]},
+    "extra": {"durability": 383, "traits": ["sharp"]},
+    "bow": {"damage": 14.0, "speed": 0.9, "range": 3.0, "traits": ["sharp"]},
+    "core": {"defense": 46.88, "durability": 39.0, "traits": ["indomitable_armor"]},
+    "plate": {"durability": 36.0, "modifier": 6.352941, "toughness": 0.0, "traits": ["prideful_armor"]},
+    "trim": {"durability": 36.0, "traits": ["autoforge_armor"]}
+  },
+  "dragonsteel_ice": {
+    "id": "dragonsteel_ice",
+    "color": "ffbbe4fd",
+    "name": "Ice Dragonsteel",
+    "head": {"durability": 1125, "attack": 26.25, "level": 9, "speed": 5.25, "traits": ["frost2"]},
+    "handle": {"durability": 300, "modifier": 0.4, "traits": ["sharp"]},
+    "extra": {"durability": 383, "traits": ["sharp"]},
+    "bow": {"damage": 14.0, "speed": 0.9, "range": 3.0, "traits": ["sharp"]},
+    "core": {"defense": 46.88, "durability": 39.0, "traits": ["indomitable_armor"]},
+    "plate": {"durability": 36.0, "modifier": 6.352941, "toughness": 0.0, "traits": ["prideful_armor"]},
+    "trim": {"durability": 36.0, "traits": ["calcic_armor"]}
+  },
+  "stymph_feather": {
+    "id": "stymph_feather",
+    "color": "ff7d5b40",
+    "name": "Stymphalian Bird Feather",
+    "fletching": {"accuracy": 1.1, "modifier": 1.65, "traits": ["antigravity"]}
+  },
+  "amphithere_feather": {
+    "id": "amphithere_feather",
+    "color": "ff228760",
+    "name": "Amphithere Feather",
+    "fletching": {"accuracy": 0.9, "modifier": 0.7, "traits": ["arrow_knockback"]}
+  },
+  "leatherfrosttroll": {
+    "id": "leatherfrosttroll",
+    "color": "ff31423e",
+    "name": "Frost Troll Leather",
+    "core": {"defense": 10.5, "durability": 15.0, "traits": ["uplifting_armor"]},
+    "plate": {"durability": 15.0, "modifier": 1.25, "toughness": 1.125, "traits": ["uplifting_armor"]},
+    "trim": {"durability": 2.0, "traits": ["uplifting_armor"]}
+  },
+  "chitintandeathworm": {
+    "id": "chitintandeathworm",
+    "color": "ffc4c4c4",
+    "name": "Tan Deathworm Chitin",
+    "core": {"defense": 15.75, "durability": 16.5, "traits": ["aridiculous_armor", "ecological_armor"]},
+    "plate": {
+      "durability": 16.5,
+      "modifier": 0.94,
+      "toughness": 2.53,
+      "traits": ["aridiculous_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 12.0, "traits": ["ecological_armor", "tconevo.impact_force"]}
+  },
+  "scalebronzedragon": {
+    "id": "scalebronzedragon",
+    "color": "ff845d2e",
+    "name": "Bronze Dragon Scales",
+    "core": {
+      "defense": 13.5,
+      "durability": 27.0,
+      "traits": ["rough_armor", "autoforge_armor", "prideful_armor"]
+    },
+    "plate": {
+      "durability": 27.0,
+      "modifier": 1.875,
+      "toughness": 2.25,
+      "traits": ["rough_armor", "autoforge_armor"]
+    },
+    "trim": {"durability": 4.0, "traits": ["rough_armor", "autoforge_armor"]}
+  },
+  "scaleblueseaserpent": {
+    "id": "scaleblueseaserpent",
+    "color": "ff5555ff",
+    "name": "Blue Sea Serpent Scales",
+    "core": {"defense": 10.5, "durability": 23.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {
+      "durability": 23.0,
+      "modifier": 3.125,
+      "toughness": 2.8125,
+      "traits": ["rough_armor", "aquaspeed_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["rough_armor", "aquaspeed_armor"]}
+  },
+  "scalepurpleseaserpent": {
+    "id": "scalepurpleseaserpent",
+    "color": "ffaa00aa",
+    "name": "Purple Sea Serpent Scales",
+    "core": {"defense": 10.5, "durability": 23.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {
+      "durability": 23.0,
+      "modifier": 3.125,
+      "toughness": 2.8125,
+      "traits": ["rough_armor", "aquaspeed_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["rough_armor", "aquaspeed_armor"]}
+  },
+  "scalewhitedragon": {
+    "id": "scalewhitedragon",
+    "color": "ffffffff",
+    "name": "White Dragon Scales",
+    "core": {"defense": 13.5, "durability": 27.0, "traits": ["rough_armor", "writable2"]},
+    "plate": {"durability": 27.0, "modifier": 1.875, "toughness": 2.25, "traits": ["rough_armor"]},
+    "trim": {"durability": 4.0, "traits": ["rough_armor"]}
+  },
+  "chitinwhitedeathworm": {
+    "id": "chitinwhitedeathworm",
+    "color": "ffffffff",
+    "name": "White Deathworm Chitin",
+    "core": {"defense": 15.75, "durability": 16.5, "traits": ["aridiculous_armor", "ecological_armor"]},
+    "plate": {
+      "durability": 16.5,
+      "modifier": 0.94,
+      "toughness": 2.53,
+      "traits": ["aridiculous_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 12.0, "traits": ["ecological_armor", "tconevo.impact_force"]}
+  },
+  "chitinbrowndeathworm": {
+    "id": "chitinbrowndeathworm",
+    "color": "ff7a2929",
+    "name": "Brown Deathworm Chitin",
+    "core": {"defense": 15.75, "durability": 16.5, "traits": ["aridiculous_armor", "ecological_armor"]},
+    "plate": {
+      "durability": 16.5,
+      "modifier": 0.94,
+      "toughness": 2.53,
+      "traits": ["aridiculous_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 12.0, "traits": ["ecological_armor", "tconevo.impact_force"]}
+  },
+  "scalegraydragon": {
+    "id": "scalegraydragon",
+    "color": "ff555555",
+    "name": "Gray Dragon Scales",
+    "core": {
+      "defense": 13.5,
+      "durability": 27.0,
+      "traits": ["rough_armor", "steady_armor", "autoforge_armor"]
+    },
+    "plate": {"durability": 27.0, "modifier": 1.875, "toughness": 2.25, "traits": ["rough_armor"]},
+    "trim": {"durability": 4.0, "traits": ["rough_armor"]}
+  },
+  "scalesapphiredragon": {
+    "id": "scalesapphiredragon",
+    "color": "ff5555ff",
+    "name": "Sapphire Dragon Scales",
+    "core": {"defense": 13.5, "durability": 27.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {"durability": 27.0, "modifier": 1.875, "toughness": 2.25, "traits": ["rough_armor"]},
+    "trim": {"durability": 4.0, "traits": ["rough_armor"]}
+  },
+  "scaletealseaserpent": {
+    "id": "scaletealseaserpent",
+    "color": "ff00aaaa",
+    "name": "Teal Sea Serpent Scales",
+    "core": {"defense": 10.5, "durability": 23.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {
+      "durability": 23.0,
+      "modifier": 3.125,
+      "toughness": 2.8125,
+      "traits": ["rough_armor", "aquaspeed_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["rough_armor", "aquaspeed_armor"]}
+  },
+  "scalebluedragon": {
+    "id": "scalebluedragon",
+    "color": "ffe1f7f0",
+    "name": "Blue Dragon Scales",
+    "core": {"defense": 13.5, "durability": 27.0, "traits": ["rough_armor", "lightweight_armor"]},
+    "plate": {"durability": 27.0, "modifier": 1.875, "toughness": 2.25, "traits": ["rough_armor"]},
+    "trim": {"durability": 4.0, "traits": ["rough_armor"]}
+  },
+  "leatherforesttroll": {
+    "id": "leatherforesttroll",
+    "color": "ff394231",
+    "name": "Forest Troll Leather",
+    "core": {"defense": 10.5, "durability": 15.0, "traits": ["uplifting_armor"]},
+    "plate": {"durability": 15.0, "modifier": 1.25, "toughness": 1.125, "traits": ["uplifting_armor"]},
+    "trim": {"durability": 2.0, "traits": ["uplifting_armor"]}
+  },
+  "scalegreendragon": {
+    "id": "scalegreendragon",
+    "color": "ff00aa00",
+    "name": "Green Dragon Scales",
+    "core": {
+      "defense": 13.5,
+      "durability": 27.0,
+      "traits": ["rough_armor", "autoforge_armor", "shielding_armor"]
+    },
+    "plate": {
+      "durability": 27.0,
+      "modifier": 1.875,
+      "toughness": 2.25,
+      "traits": ["rough_armor", "autoforge_armor"]
+    },
+    "trim": {"durability": 4.0, "traits": ["rough_armor", "autoforge_armor"]}
+  },
+  "leathermountaintroll": {
+    "id": "leathermountaintroll",
+    "color": "ff3b4240",
+    "name": "Mountain Troll Leather",
+    "core": {"defense": 10.5, "durability": 15.0, "traits": ["uplifting_armor"]},
+    "plate": {"durability": 15.0, "modifier": 1.25, "toughness": 1.125, "traits": ["uplifting_armor"]},
+    "trim": {"durability": 2.0, "traits": ["uplifting_armor"]}
+  },
+  "scalebronzeseaserpent": {
+    "id": "scalebronzeseaserpent",
+    "color": "ffffaa00",
+    "name": "Bronze Sea Serpent Scales",
+    "core": {"defense": 10.5, "durability": 23.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {
+      "durability": 23.0,
+      "modifier": 3.125,
+      "toughness": 2.8125,
+      "traits": ["rough_armor", "aquaspeed_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["rough_armor", "aquaspeed_armor"]}
+  },
+  "scalereddragon": {
+    "id": "scalereddragon",
+    "color": "ffaa0000",
+    "name": "Red Dragon Scales",
+    "core": {
+      "defense": 13.5,
+      "durability": 27.0,
+      "traits": ["rough_armor", "autoforge_armor", "infernal_armor"]
+    },
+    "plate": {
+      "durability": 27.0,
+      "modifier": 1.875,
+      "toughness": 2.25,
+      "traits": ["rough_armor", "autoforge_armor"]
+    },
+    "trim": {"durability": 4.0, "traits": ["rough_armor", "autoforge_armor"]}
+  },
+  "scaledeepblueseaserpent": {
+    "id": "scaledeepblueseaserpent",
+    "color": "ff0000aa",
+    "name": "Deep Blue Sea Serpent Scales",
+    "core": {"defense": 10.5, "durability": 23.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {
+      "durability": 23.0,
+      "modifier": 3.125,
+      "toughness": 2.8125,
+      "traits": ["rough_armor", "aquaspeed_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["rough_armor", "aquaspeed_armor"]}
+  },
+  "scaleredseaserpent": {
+    "id": "scaleredseaserpent",
+    "color": "ffff5555",
+    "name": "Red Sea Serpent Scales",
+    "core": {"defense": 10.5, "durability": 23.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {
+      "durability": 23.0,
+      "modifier": 3.125,
+      "toughness": 2.8125,
+      "traits": ["rough_armor", "aquaspeed_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["rough_armor", "aquaspeed_armor"]}
+  },
+  "scalegreenseaserpent": {
+    "id": "scalegreenseaserpent",
+    "color": "ff00aa00",
+    "name": "Green Sea Serpent Scales",
+    "core": {"defense": 10.5, "durability": 23.0, "traits": ["rough_armor", "aquaspeed_armor"]},
+    "plate": {
+      "durability": 23.0,
+      "modifier": 3.125,
+      "toughness": 2.8125,
+      "traits": ["rough_armor", "aquaspeed_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["rough_armor", "aquaspeed_armor"]}
+  },
+  "scalesilverdragon": {
+    "id": "scalesilverdragon",
+    "color": "ffaaaaaa",
+    "name": "Silver Dragon Scales",
+    "core": {"defense": 13.5, "durability": 27.0, "traits": ["rough_armor", "blessed_armor"]},
+    "plate": {"durability": 27.0, "modifier": 1.875, "toughness": 2.25, "traits": ["rough_armor"]},
+    "trim": {"durability": 4.0, "traits": ["rough_armor"]}
+  },
+  "ma.prosperity": {
+    "id": "ma.prosperity",
+    "color": "ffa3c5c5",
+    "name": "Prosperity Shard",
+    "head": {"durability": 27, "attack": 0.075, "level": 4, "speed": 0.6225, "traits": ["writable2"]},
+    "handle": {"durability": 6, "modifier": 1.4, "traits": ["writable2"]},
+    "extra": {"durability": 15, "traits": ["writable2"]},
+    "bow": {"damage": 0.8, "speed": 1.4, "range": 0.63, "traits": ["writable2"]},
+    "core": {"defense": 0.253125, "durability": 1.0, "traits": ["writable2"]},
+    "plate": {"durability": 7.0, "modifier": 23.24, "toughness": 0.0, "traits": ["writable2"]},
+    "trim": {"durability": 2.0, "traits": ["writable2"]}
+  },
+  "ma.soulium": {
+    "id": "ma.soulium",
+    "color": "ff564237",
+    "name": "Soulium",
+    "head": {"durability": 466, "attack": 3.45, "level": 4, "speed": 4.7625, "traits": ["chunky"]},
+    "handle": {"durability": 41, "modifier": 0.8, "traits": ["vindictive"]},
+    "extra": {"durability": 47, "traits": ["vindictive"]},
+    "bow": {"damage": 3.1, "speed": 0.65, "range": 1.5, "traits": ["vindictive"]},
+    "core": {"defense": 11.64375, "durability": 16.0, "traits": ["tconevo.modifiable2"]},
+    "plate": {
+      "durability": 5.0,
+      "modifier": 12.705882,
+      "toughness": 0.0,
+      "traits": ["tconevo.modifiable1"]
+    },
+    "trim": {"durability": 5.0, "traits": ["tconevo.modifiable1"]}
+  },
+  "ma.base_essence": {
+    "id": "ma.base_essence",
+    "color": "ffd1ffff",
+    "name": "Base Essence",
+    "head": {"durability": 183, "attack": 3.2475, "level": 4, "speed": 4.9875, "traits": ["prosperous"]},
+    "handle": {"durability": 49, "modifier": 1.4, "traits": ["prosperous"]},
+    "extra": {"durability": 38, "traits": ["prosperous"]},
+    "bow": {"damage": 3.52, "speed": 0.5, "range": 1.5, "traits": ["prosperous"]},
+    "core": {"defense": 10.960313, "durability": 6.0, "traits": ["prosperous"]},
+    "plate": {"durability": 4.0, "modifier": 22.235294, "toughness": 0.0, "traits": ["prosperous"]},
+    "trim": {"durability": 4.0, "traits": ["prosperous"]}
+  },
+  "ma.inferium": {
+    "id": "ma.inferium",
+    "color": "ff748e00",
+    "name": "Inferium",
+    "head": {"durability": 259, "attack": 6.75, "level": 5, "speed": 5.265, "traits": ["prosperous"]},
+    "handle": {"durability": 38, "modifier": 0.63, "traits": ["prosperous"]},
+    "extra": {"durability": 56, "traits": ["prosperous"]},
+    "bow": {"damage": 1.91, "speed": 0.58, "range": 0.99, "traits": ["prosperous"]},
+    "core": {"defense": 22.78125, "durability": 9.0, "traits": ["prosperous"]},
+    "plate": {"durability": 10.0, "modifier": 10.005882, "toughness": 1.0, "traits": ["prosperous"]},
+    "trim": {"durability": 10.0, "traits": ["prosperous"]}
+  },
+  "ma.prudentium": {
+    "id": "ma.prudentium",
+    "color": "ff008c23",
+    "name": "Prudentium",
+    "head": {"durability": 518, "attack": 9.93, "level": 6, "speed": 6.0075, "traits": ["prosperous"]},
+    "handle": {"durability": 56, "modifier": 0.78, "traits": ["prosperous"]},
+    "extra": {"durability": 75, "traits": ["prosperous"]},
+    "bow": {"damage": 2.32, "speed": 0.73, "range": 1.34, "traits": ["prosperous"]},
+    "core": {"defense": 33.51375, "durability": 18.0, "traits": ["prosperous"]},
+    "plate": {"durability": 14.0, "modifier": 12.388235, "toughness": 1.5, "traits": ["prosperous"]},
+    "trim": {"durability": 14.0, "traits": ["prosperous"]}
+  },
+  "ma.intermedium": {
+    "id": "ma.intermedium",
+    "color": "ffb74900",
+    "name": "Intermedium",
+    "head": {"durability": 1035, "attack": 13.84, "level": 7, "speed": 8.31, "traits": ["prosperous"]},
+    "handle": {"durability": 75, "modifier": 0.97, "traits": ["prosperous"]},
+    "extra": {"durability": 113, "traits": ["prosperous"]},
+    "bow": {"damage": 4.02, "speed": 1.07, "range": 1.63, "traits": ["prosperous"]},
+    "core": {"defense": 37.5, "durability": 36.0, "traits": ["prosperous"]},
+    "plate": {"durability": 22.0, "modifier": 15.405882, "toughness": 2.0, "traits": ["prosperous"]},
+    "trim": {"durability": 22.0, "traits": ["prosperous"]}
+  },
+  "ma.superium": {
+    "id": "ma.superium",
+    "color": "ff007fdb",
+    "name": "Superium",
+    "head": {"durability": 2070, "attack": 17.43, "level": 8, "speed": 12.3975, "traits": ["prosperous"]},
+    "handle": {"durability": 124, "modifier": 1.12, "traits": ["prosperous"]},
+    "extra": {"durability": 169, "traits": ["prosperous"]},
+    "bow": {"damage": 5.94, "speed": 1.21, "range": 1.91, "traits": ["prosperous"]},
+    "core": {"defense": 37.5, "durability": 73.0, "traits": ["prosperous"]},
+    "plate": {"durability": 32.0, "modifier": 17.788235, "toughness": 2.5, "traits": ["prosperous"]},
+    "trim": {"durability": 32.0, "traits": ["prosperous"]}
+  },
+  "ma.supremium": {
+    "id": "ma.supremium",
+    "color": "ffc40000",
+    "name": "Supremium",
+    "head": {
+      "durability": 4140,
+      "attack": 22.55,
+      "level": 12,
+      "speed": 16.6875,
+      "traits": ["prosperous", "duritos"]
+    },
+    "handle": {"durability": 150, "modifier": 1.35, "traits": ["prosperous"]},
+    "extra": {"durability": 225, "traits": ["prosperous"]},
+    "bow": {"damage": 7.32, "speed": 1.33, "range": 2.35, "traits": ["prosperous"]},
+    "core": {"defense": 37.5, "durability": 90.0, "traits": ["tconevo.celestial_armor", "prosperous"]},
+    "plate": {"durability": 42.0, "modifier": 21.441175, "toughness": 3.0, "traits": ["prosperous"]},
+    "trim": {"durability": 42.0, "traits": ["prosperous"]}
+  },
+  "blood_infused_glitch": {
+    "id": "blood_infused_glitch",
+    "color": "ffde2412",
+    "name": "Blood Infused Glitch",
+    "head": {"durability": 338, "attack": 4.995, "level": 4, "speed": 14.4, "traits": ["overflow"]},
+    "handle": {"durability": 0, "modifier": 1.1, "traits": ["bloodlust", "glitch"]},
+    "extra": {"durability": 98, "traits": ["bloodlust", "glitch"]},
+    "bow": {"damage": 6.66, "speed": 0.66, "range": 1.2, "traits": ["bloodlust", "glitch"]},
+    "core": {"defense": 16.858126, "durability": 11.0, "traits": ["bloodlust", "glitch"]},
+    "plate": {
+      "durability": 9.0,
+      "modifier": 17.470587,
+      "toughness": 0.0,
+      "traits": ["bloodlust", "glitch"]
+    },
+    "trim": {"durability": 9.0, "traits": ["bloodlust", "glitch"]}
+  },
+  "endorium": {
+    "id": "endorium",
+    "color": "ff1b7b6b",
+    "name": "Endorium",
+    "head": {"durability": 768, "attack": 6.0, "level": 3, "speed": 4.125, "traits": ["endorium"]},
+    "bow": {"damage": 5.0, "speed": 1.2, "range": 2.0, "traits": ["endorium"]},
+    "handle": {"durability": 768, "modifier": 1.4, "traits": ["endorium"]},
+    "shaft": {"ammo": 5, "modifier": 1.4, "traits": ["endorium"]},
+    "core": {"defense": 20.25, "durability": 27.0, "traits": ["endorium"]},
+    "plate": {"durability": 0.0, "modifier": 22.235294, "toughness": 0.0, "traits": ["endorium"]},
+    "trim": {"durability": 0.0, "traits": ["endorium"]}
+  },
+  "xu_magical_wood": {
+    "id": "xu_magical_wood",
+    "color": "fffdffa8",
+    "name": "Magical Wood",
+    "head": {
+      "durability": 26,
+      "attack": 1.5,
+      "level": 3,
+      "speed": 1.5,
+      "traits": ["magical_modifier", "brittle"]
+    },
+    "handle": {"durability": 19, "modifier": 1.0, "traits": ["magical_modifier", "brittle"]},
+    "extra": {"durability": 11, "traits": ["magical_modifier", "brittle"]},
+    "bow": {"damage": 0.0, "speed": 1.0, "range": 1.0, "traits": ["magical_modifier", "brittle"]},
+    "core": {"defense": 5.0625, "durability": 1.0, "traits": ["magical_modifier", "brittle"]},
+    "plate": {
+      "durability": 1.0,
+      "modifier": 15.882353,
+      "toughness": 0.0,
+      "traits": ["magical_modifier", "brittle"]
+    },
+    "trim": {"durability": 1.0, "traits": ["magical_modifier", "brittle"]}
+  },
+  "xu_evil_metal": {
+    "id": "xu_evil_metal",
+    "color": "fffdffa8",
+    "name": "Evil Infused Iron",
+    "head": {"durability": 500, "attack": 9.75, "level": 8, "speed": 9.75, "traits": ["xu_withering"]},
+    "handle": {"durability": 0, "modifier": 1.0, "traits": ["darkness"]},
+    "extra": {"durability": 50, "traits": ["darkness"]},
+    "core": {"defense": 32.90625, "durability": 17.0, "traits": ["xu_withering"]},
+    "plate": {"durability": 5.0, "modifier": 15.882353, "toughness": 0.0, "traits": ["xu_withering"]},
+    "trim": {"durability": 5.0, "traits": ["xu_withering"]}
+  },
+  "xu_enchanted_metal": {
+    "id": "xu_enchanted_metal",
+    "color": "ffbff260",
+    "name": "Enchanted Metal",
+    "head": {
+      "durability": 263,
+      "attack": 2.625,
+      "level": 7,
+      "speed": 5.25,
+      "traits": ["xu_xp_boost", "established"]
+    },
+    "handle": {"durability": 15, "modifier": 1.1, "traits": ["xu_xp_boost", "established"]},
+    "extra": {"durability": 60, "traits": ["xu_xp_boost", "established"]},
+    "core": {"defense": 8.859375, "durability": 9.0, "traits": ["xu_xp_boost"]},
+    "plate": {"durability": 6.0, "modifier": 17.470587, "toughness": 0.0, "traits": ["xu_xp_boost"]},
+    "trim": {"durability": 6.0, "traits": ["xu_xp_boost"]}
+  },
+  "xu_demonic_metal": {
+    "id": "xu_demonic_metal",
+    "color": "ffa33b00",
+    "name": "Demonic Metal",
+    "head": {"durability": 60, "attack": 8.99, "level": 7, "speed": 0.375, "traits": ["xu_whispering"]},
+    "handle": {"durability": 75, "modifier": 0.25, "traits": ["heavy_metal"]},
+    "extra": {"durability": 15, "traits": ["heavy_metal"]},
+    "bow": {"damage": 4.0, "speed": 0.7, "range": 1.1, "traits": ["heavy_metal"]},
+    "core": {"defense": 13.65, "durability": 2.0, "traits": ["xu_whispering"]},
+    "plate": {"durability": 2.0, "modifier": 3.18, "toughness": 0.0, "traits": ["xu_whispering"]},
+    "trim": {"durability": 2.0, "traits": ["xu_whispering"]}
+  },
+  "black_quartz": {
+    "id": "black_quartz",
+    "color": "ff575757",
+    "name": "Black Quartz",
+    "head": {
+      "durability": 410,
+      "attack": 3.75,
+      "level": 4,
+      "speed": 4.875,
+      "traits": ["depthdigger", "jagged"]
+    },
+    "extra": {"durability": 8, "traits": ["depthdigger", "jagged"]},
+    "handle": {"durability": 15, "modifier": 0.8, "traits": ["depthdigger", "jagged"]},
+    "bow": {"damage": 0.0, "speed": 1.2, "range": 1.0, "traits": ["depthdigger", "jagged"]},
+    "core": {"defense": 9.75, "durability": 8.0, "traits": ["subterranean_armor", "rough_armor"]},
+    "plate": {
+      "durability": 3.0,
+      "modifier": 0.8,
+      "toughness": 0.75,
+      "traits": ["subterranean_armor", "rough_armor"]
+    },
+    "trim": {"durability": 2.0, "traits": ["subterranean_armor", "rough_armor"]}
+  },
+  "restonia_crystal": {
+    "id": "restonia_crystal",
+    "color": "ffbe0000",
+    "name": "Restonia Crystal",
+    "head": {
+      "durability": 57,
+      "attack": 3.15,
+      "level": 4,
+      "speed": 7.88,
+      "traits": ["tconevo.piezoelectric", "tconevo.crystalline"]
+    },
+    "extra": {"durability": 15, "traits": ["tconevo.crystalline", "lifecycle"]},
+    "handle": {"durability": 8, "modifier": 0.75, "traits": ["tconevo.crystalline", "lifecycle"]},
+    "bow": {
+      "damage": 0.0,
+      "speed": 1.5,
+      "range": 0.8,
+      "traits": ["tconevo.piezoelectric", "tconevo.crystalline"]
+    },
+    "core": {"defense": 7.5, "durability": 5.0, "traits": ["mundane1_armor"]},
+    "plate": {"durability": 3.0, "modifier": 0.75, "toughness": 0.0, "traits": ["mundane1_armor"]},
+    "trim": {"durability": 4.0, "traits": ["mundane1_armor"]}
+  },
+  "palis_crystal": {
+    "id": "palis_crystal",
+    "color": "ff005dba",
+    "name": "Palis Crystal",
+    "head": {
+      "durability": 136,
+      "attack": 4.05,
+      "level": 4,
+      "speed": 3.6,
+      "traits": ["tconevo.crystalline", "spades"]
+    },
+    "extra": {"durability": 208, "traits": ["tconevo.crystalline", "spades"]},
+    "handle": {"durability": 0, "modifier": 1.1, "traits": ["tconevo.crystalline", "spades"]},
+    "bow": {"damage": 0.0, "speed": 0.75, "range": 1.1, "traits": ["tconevo.crystalline", "spades"]},
+    "core": {"defense": 7.5, "durability": 5.0, "traits": ["ambitious_armor"]},
+    "plate": {"durability": 0.0, "modifier": 1.1, "toughness": 0.0, "traits": ["ambitious_armor"]},
+    "trim": {"durability": 3.0, "traits": ["ambitious_armor"]}
+  },
+  "diamantine_crystal": {
+    "id": "diamantine_crystal",
+    "color": "ff8bc5fe",
+    "name": "Diamatine Crystal",
+    "head": {
+      "durability": 360,
+      "attack": 4.5,
+      "level": 5,
+      "speed": 5.625,
+      "traits": ["tconevo.crystalline", "tconevo.aftershock1"]
+    },
+    "extra": {"durability": 45, "traits": ["tconevo.crystalline", "tconevo.aftershock1"]},
+    "handle": {
+      "durability": 23,
+      "modifier": 1.25,
+      "traits": ["tconevo.crystalline", "tconevo.aftershock1"]
+    },
+    "bow": {
+      "damage": 4.0,
+      "speed": 1.0,
+      "range": 1.2,
+      "traits": ["tconevo.crystalline", "tconevo.aftershock1"]
+    },
+    "core": {"defense": 11.81, "durability": 14.0, "traits": ["shielding_armor"]},
+    "plate": {"durability": 8.0, "modifier": 1.25, "toughness": 1.5, "traits": ["shielding_armor"]},
+    "trim": {"durability": 10.0, "traits": ["shielding_armor"]}
+  },
+  "void_crystal": {
+    "id": "void_crystal",
+    "color": "ff343434",
+    "name": "Void Crystal",
+    "head": {
+      "durability": 192,
+      "attack": 4.5,
+      "level": 4,
+      "speed": 3.38,
+      "traits": ["tconevo.crystalline", "cheapskate"]
+    },
+    "extra": {"durability": 4, "traits": ["tconevo.crystalline", "cheapskate"]},
+    "handle": {"durability": 0, "modifier": 0.8, "traits": ["tconevo.crystalline", "cheapskate"]},
+    "bow": {"damage": 0.0, "speed": 1.25, "range": 1.8, "traits": ["tconevo.crystalline", "cheapskate"]},
+    "core": {"defense": 5.25, "durability": 3.0, "traits": ["cheapskate_armor"]},
+    "plate": {"durability": 0.0, "modifier": 0.8, "toughness": 0.0, "traits": ["cheapskate_armor"]},
+    "trim": {"durability": 2.0, "traits": ["cheapskate_armor"]}
+  },
+  "emeraldic_crystal": {
+    "id": "emeraldic_crystal",
+    "color": "ff004e00",
+    "name": "Emeradic Crystal",
+    "head": {
+      "durability": 424,
+      "attack": 5.25,
+      "level": 5,
+      "speed": 6.0,
+      "traits": ["coldblooded", "tconevo.crystalline"]
+    },
+    "extra": {"durability": 28, "traits": ["momentum", "tconevo.crystalline"]},
+    "handle": {"durability": 38, "modifier": 1.25, "traits": ["momentum", "tconevo.crystalline"]},
+    "bow": {"damage": 6.0, "speed": 0.85, "range": 1.3, "traits": ["coldblooded", "tconevo.crystalline"]},
+    "core": {"defense": 12.66, "durability": 16.0, "traits": ["vengeful_armor"]},
+    "plate": {"durability": 10.0, "modifier": 1.25, "toughness": 2.25, "traits": ["vengeful_armor"]},
+    "trim": {"durability": 11.0, "traits": ["vengeful_armor"]}
+  },
+  "enori_crystal": {
+    "id": "enori_crystal",
+    "color": "ffe3e3e3",
+    "name": "Enori Crystal",
+    "head": {
+      "durability": 240,
+      "attack": 5.63,
+      "level": 4,
+      "speed": 6.75,
+      "traits": ["tconevo.crystalline", "magnetic1", "starfishy"]
+    },
+    "extra": {"durability": 41, "traits": ["tconevo.crystalline", "magnetic1", "starfishy"]},
+    "handle": {
+      "durability": 53,
+      "modifier": 1.0,
+      "traits": ["tconevo.crystalline", "magnetic1", "starfishy"]
+    },
+    "bow": {
+      "damage": 2.0,
+      "speed": 0.7,
+      "range": 1.35,
+      "traits": ["tconevo.crystalline", "magnetic1", "starfishy"]
+    },
+    "core": {
+      "defense": 11.25,
+      "durability": 8.0,
+      "traits": ["heavy_armor", "magnetic1_armor", "starfishy"]
+    },
+    "plate": {
+      "durability": 6.0,
+      "modifier": 1.0,
+      "toughness": 0.0,
+      "traits": ["heavy_armor", "magnetic1_armor", "starfishy"]
+    },
+    "trim": {"durability": 8.0, "traits": ["heavy_armor", "magnetic1_armor", "starfishy"]}
+  },
+  "sunnarium": {
+    "id": "sunnarium",
+    "color": "ffe2c715",
+    "name": "Sunnarium",
+    "head": {
+      "durability": 435,
+      "attack": 9.0,
+      "level": 12,
+      "speed": 9.0,
+      "traits": ["tconevo.photosynthetic", "tconevo.luminiferous"]
+    },
+    "extra": {"durability": 53, "traits": ["tconevo.photosynthetic", "tconevo.luminiferous"]},
+    "handle": {
+      "durability": 30,
+      "modifier": 1.25,
+      "traits": ["tconevo.photosynthetic", "tconevo.luminiferous"]
+    },
+    "bow": {
+      "damage": 4.0,
+      "speed": 2.0,
+      "range": 1.1,
+      "traits": ["tconevo.photosynthetic", "tconevo.luminiferous"]
+    },
+    "core": {
+      "defense": 20.25,
+      "durability": 15.0,
+      "traits": ["tconevo.photosynthetic_armor", "tconevo.radiant_armor"]
+    },
+    "plate": {
+      "durability": 7.0,
+      "modifier": 1.25,
+      "toughness": 3.0,
+      "traits": ["tconevo.photosynthetic_armor", "tconevo.radiant_armor"]
+    },
+    "trim": {"durability": 9.0, "traits": ["tconevo.photosynthetic_armor", "tconevo.radiant_armor"]}
+  },
+  "sky_stone": {
+    "id": "sky_stone",
+    "color": "ff4a4d4c",
+    "name": "Sky Stone",
+    "head": {
+      "durability": 85,
+      "attack": 3.0,
+      "level": 6,
+      "speed": 3.75,
+      "traits": ["crumbling", "stonebound"]
+    },
+    "extra": {"durability": 19, "traits": ["stonebound"]},
+    "handle": {"durability": 8, "modifier": 1.0, "traits": ["stonebound"]},
+    "bow": {"damage": 2.0, "speed": 0.5, "range": 1.25, "traits": ["crumbling", "stonebound"]},
+    "core": {
+      "defense": 4.875,
+      "durability": 7.0,
+      "traits": ["alien_armor", "tconevo.stonebound_armor", "hailhydra"]
+    },
+    "plate": {
+      "durability": 1.0,
+      "modifier": 1.0,
+      "toughness": 0.75,
+      "traits": ["tconevo.stonebound_armor", "hailhydra"]
+    },
+    "trim": {"durability": 1.0, "traits": ["tconevo.stonebound_armor", "hailhydra"]}
+  },
+  "certus_quartz": {
+    "id": "certus_quartz",
+    "color": "ffc6e1ff",
+    "name": "Certus Quartz",
+    "head": {
+      "durability": 75,
+      "attack": 1.69,
+      "level": 2,
+      "speed": 2.25,
+      "traits": ["tconevo.crystalline", "lightweight"]
+    },
+    "extra": {"durability": 19, "traits": ["tconevo.crystalline", "lightweight"]},
+    "handle": {"durability": 23, "modifier": 0.75, "traits": ["tconevo.crystalline", "lightweight"]},
+    "bow": {"damage": 0.0, "speed": 1.15, "range": 1.0, "traits": ["tconevo.crystalline", "lightweight"]},
+    "core": {"defense": 11.25, "durability": 8.0, "traits": ["lightweight_armor"]},
+    "plate": {"durability": 5.0, "modifier": 0.75, "toughness": 0.0, "traits": ["lightweight_armor"]},
+    "trim": {"durability": 3.0, "traits": ["lightweight_armor"]}
+  },
+  "fluix": {
+    "id": "fluix",
+    "color": "ff8358a1",
+    "name": "Fluix",
+    "head": {
+      "durability": 206,
+      "attack": 3.375,
+      "level": 2,
+      "speed": 4.5,
+      "traits": ["tconevo.crystalline", "portly"]
+    },
+    "extra": {"durability": 23, "traits": ["tconevo.crystalline", "portly"]},
+    "handle": {"durability": 11, "modifier": 1.0, "traits": ["tconevo.crystalline", "portly"]},
+    "bow": {"damage": 4.0, "speed": 0.9, "range": 1.25, "traits": ["tconevo.crystalline", "portly"]},
+    "core": {"defense": 11.625, "durability": 8.0, "traits": ["voltaic_armor", "portly"]},
+    "plate": {"durability": 3.0, "modifier": 1.0, "toughness": 0.0, "traits": ["voltaic_armor", "portly"]},
+    "trim": {"durability": 4.0, "traits": ["voltaic_armor", "portly"]}
+  },
+  "fluix_steel": {
+    "id": "fluix_steel",
+    "color": "ff483758",
+    "name": "Fluix Steel",
+    "head": {
+      "durability": 338,
+      "attack": 4.125,
+      "level": 3,
+      "speed": 4.875,
+      "traits": ["tconevo.piezoelectric", "enderpickup"]
+    },
+    "extra": {"durability": 56, "traits": ["enderpickup"]},
+    "handle": {"durability": 45, "modifier": 0.9, "traits": ["enderpickup"]},
+    "bow": {"damage": 6.0, "speed": 0.7, "range": 1.3, "traits": ["tconevo.piezoelectric", "enderpickup"]},
+    "core": {"defense": 13.5, "durability": 11.0, "traits": ["steady_armor", "magnetic2_armor"]},
+    "plate": {
+      "durability": 6.0,
+      "modifier": 0.9,
+      "toughness": 1.875,
+      "traits": ["steady_armor", "magnetic2_armor"]
+    },
+    "trim": {"durability": 1.0, "traits": ["steady_armor", "magnetic2_armor"]}
+  },
+  "aquamarine": {
+    "id": "aquamarine",
+    "color": "ff24b1fe",
+    "name": "Aquamarine",
+    "head": {
+      "durability": 98,
+      "attack": 2.25,
+      "level": 0,
+      "speed": 3.5,
+      "traits": ["tconevo.astral", "tconevo.crystalline"]
+    },
+    "extra": {"durability": 19, "traits": ["tconevo.crystalline"]},
+    "handle": {"durability": 8, "modifier": 0.8, "traits": ["tconevo.crystalline"]},
+    "bow": {
+      "damage": 0.0,
+      "speed": 0.75,
+      "range": 1.0,
+      "traits": ["tconevo.astral", "tconevo.crystalline"]
+    },
+    "core": {"defense": 9.375, "durability": 5.0, "traits": ["tconevo.astral_armor", "absorbent_armor"]},
+    "plate": {"durability": 3.0, "modifier": 0.8, "toughness": 0.0, "traits": ["absorbent_armor"]},
+    "trim": {"durability": 4.0, "traits": ["absorbent_armor"]}
+  },
+  "crystal_matrix": {
+    "id": "crystal_matrix",
+    "color": "ff97f1eb",
+    "name": "Crystal Matrix",
+    "head": {
+      "durability": 2400,
+      "attack": 7.125,
+      "level": 11,
+      "speed": 9.75,
+      "traits": ["tconevo.crystalline", "tconevo.aftershock3", "insatiable"]
+    },
+    "extra": {"durability": 300, "traits": ["tconevo.crystalline", "tconevo.aftershock3", "insatiable"]},
+    "handle": {
+      "durability": 94,
+      "modifier": 1.5,
+      "traits": ["tconevo.crystalline", "tconevo.aftershock3", "insatiable"]
+    },
+    "bow": {
+      "damage": 2.0,
+      "speed": 1.5,
+      "range": 1.0,
+      "traits": ["tconevo.crystalline", "tconevo.aftershock3", "insatiable"]
+    },
+    "core": {
+      "defense": 16.125,
+      "durability": 19.0,
+      "traits": ["rough_armor", "tconevo.will_strength_armor", "prideful_armor"]
+    },
+    "plate": {
+      "durability": 2.0,
+      "modifier": 1.5,
+      "toughness": 2.88,
+      "traits": ["rough_armor", "tconevo.will_strength_armor", "prideful_armor"]
+    },
+    "trim": {"durability": 6.0, "traits": ["rough_armor", "tconevo.will_strength_armor", "prideful_armor"]}
+  },
+  "neutronium": {
+    "id": "neutronium",
+    "color": "ff3b3b3b",
+    "name": "Neutronium",
+    "head": {
+      "durability": 8333,
+      "attack": 12.0,
+      "level": 12,
+      "speed": 9.75,
+      "traits": ["tconevo.condensing1", "dense", "heavy"]
+    },
+    "extra": {"durability": 833, "traits": ["dense", "heavy"]},
+    "handle": {"durability": 416, "modifier": 1.0, "traits": ["dense", "heavy"]},
+    "bow": {
+      "damage": 20.0,
+      "speed": 0.25,
+      "range": 4.0,
+      "traits": ["tconevo.condensing1", "dense", "heavy"]
+    },
+    "core": {
+      "defense": 18.0,
+      "durability": 833.0,
+      "traits": ["tconevo.reactive_armor", "dense_armor", "heavy_armor"]
+    },
+    "plate": {
+      "durability": 83.0,
+      "modifier": 1.0,
+      "toughness": 11.25,
+      "traits": ["tconevo.reactive_armor", "dense_armor", "heavy_armor"]
+    },
+    "trim": {"durability": 83.0, "traits": ["tconevo.reactive_armor", "dense_armor", "heavy_armor"]}
+  },
+  "infinity_metal": {
+    "id": "infinity_metal",
+    "color": "ff4c9994",
+    "name": "Infinity",
+    "head": {
+      "durability": 500,
+      "attack": 300.0,
+      "level": 15,
+      "speed": 25.0,
+      "traits": ["tconevo.omnipotence", "tconevo.infinitum"]
+    },
+    "extra": {"durability": 500, "traits": ["tconevo.infinitum"]},
+    "handle": {"durability": 500, "modifier": 1.0, "traits": ["tconevo.infinitum"]},
+    "bow": {
+      "damage": 300.0,
+      "speed": 6.66,
+      "range": 1.0,
+      "traits": ["tconevo.omnipotence", "tconevo.infinitum"]
+    },
+    "core": {
+      "defense": 69.75,
+      "durability": 500.0,
+      "traits": ["tconevo.null_almighty_armor", "tconevo.eternity_armor", "tconevo.celestial_armor", "tconevo.gale_force1_armor", "tconevo.infinitum"]
+    },
+    "plate": {
+      "durability": 500.0,
+      "modifier": 1.0,
+      "toughness": 30.0,
+      "traits": ["tconevo.gale_force1_armor", "tconevo.infinitum"]
+    },
+    "trim": {"durability": 500.0, "traits": ["tconevo.gale_force1_armor", "tconevo.infinitum"]}
+  },
+  "bound_metal": {
+    "id": "bound_metal",
+    "color": "ff6b0205",
+    "name": "Bound",
+    "head": {
+      "durability": 353,
+      "attack": 7.88,
+      "level": 4,
+      "speed": 6.0,
+      "traits": ["tconevo.crystalys", "tconevo.bloodbound"]
+    },
+    "extra": {"durability": 60, "traits": ["tconevo.bloodbound"]},
+    "handle": {"durability": 30, "modifier": 1.0, "traits": ["tconevo.bloodbound"]},
+    "bow": {
+      "damage": 4.0,
+      "speed": 0.6,
+      "range": 1.4,
+      "traits": ["tconevo.crystalys", "tconevo.bloodbound"]
+    },
+    "core": {
+      "defense": 15.0,
+      "durability": 11.0,
+      "traits": ["tconevo.soul_guard_armor", "tconevo.bloodbound_armor"]
+    },
+    "plate": {"durability": 6.0, "modifier": 1.0, "toughness": 3.0, "traits": ["tconevo.bloodbound_armor"]},
+    "trim": {"durability": 7.0, "traits": ["tconevo.bloodbound_armor"]}
+  },
+  "sentient_metal": {
+    "id": "sentient_metal",
+    "color": "ff7edee3",
+    "name": "Sentient",
+    "head": {
+      "durability": 225,
+      "attack": 7.5,
+      "level": 9,
+      "speed": 5.25,
+      "traits": ["tconevo.sentient", "tconevo.willful"]
+    },
+    "extra": {"durability": 34, "traits": ["tconevo.willful"]},
+    "handle": {"durability": 23, "modifier": 0.75, "traits": ["tconevo.willful"]},
+    "bow": {"damage": 1.5, "speed": 0.75, "range": 1.25, "traits": ["tconevo.sentient", "tconevo.willful"]},
+    "core": {
+      "defense": 12.0,
+      "durability": 10.0,
+      "traits": ["tconevo.sentient_armor", "tconevo.willful_armor"]
+    },
+    "plate": {"durability": 5.0, "modifier": 0.75, "toughness": 0.75, "traits": ["tconevo.willful_armor"]},
+    "trim": {"durability": 6.0, "traits": ["tconevo.willful_armor"]}
+  },
+  "livingrock": {
+    "id": "livingrock",
+    "color": "ffd7dac7",
+    "name": "Livingrock",
+    "head": {
+      "durability": 128,
+      "attack": 3.0,
+      "level": 1,
+      "speed": 3.375,
+      "traits": ["tconevo.sundering", "jagged"]
+    },
+    "extra": {"durability": 26, "traits": ["jagged"]},
+    "handle": {"durability": 8, "modifier": 0.9, "traits": ["jagged"]},
+    "bow": {"damage": 0.0, "speed": 0.6, "range": 0.9, "traits": ["tconevo.sundering", "jagged"]},
+    "core": {
+      "defense": 7.8,
+      "durability": 14.0,
+      "traits": ["tconevo.stifling_armor", "tconevo.stonebound_armor"]
+    },
+    "plate": {
+      "durability": 0.0,
+      "modifier": 1.5,
+      "toughness": 0.25,
+      "traits": ["tconevo.stonebound_armor"]
+    },
+    "trim": {"durability": 2.0, "traits": ["tconevo.stonebound_armor"]}
+  },
+  "livingwood": {
+    "id": "livingwood",
+    "color": "ff795a2b",
+    "name": "Livingwood",
+    "head": {
+      "durability": 60,
+      "attack": 1.31,
+      "level": 4,
+      "speed": 0.94,
+      "traits": ["tconevo.modifiable2", "ecological"]
+    },
+    "extra": {"durability": 15, "traits": ["tconevo.modifiable2", "ecological"]},
+    "handle": {"durability": 5, "modifier": 1.2, "traits": ["tconevo.modifiable2", "ecological"]},
+    "bow": {"damage": 0.0, "speed": 1.2, "range": 1.0, "traits": ["tconevo.modifiable2", "ecological"]},
+    "shaft": {"ammo": 0, "modifier": 1.0, "traits": ["tconevo.modifiable2", "ecological"]},
+    "core": {"defense": 2.25, "durability": 9.0, "traits": ["tconevo.modifiable2", "ecological_armor"]},
+    "plate": {
+      "durability": 1.0,
+      "modifier": 0.75,
+      "toughness": 0.0,
+      "traits": ["tconevo.modifiable2", "ecological_armor"]
+    },
+    "trim": {"durability": 1.0, "traits": ["tconevo.modifiable2", "ecological_armor"]}
+  },
+  "dreamwood": {
+    "id": "dreamwood",
+    "color": "ffadbbbf",
+    "name": "Dreamwood",
+    "head": {
+      "durability": 83,
+      "attack": 2.625,
+      "level": 9,
+      "speed": 2.25,
+      "traits": ["tconevo.aura_siphon", "ecological"]
+    },
+    "extra": {"durability": 23, "traits": ["tconevo.aura_siphon", "ecological"]},
+    "handle": {"durability": 0, "modifier": 1.1, "traits": ["tconevo.aura_siphon", "ecological"]},
+    "bow": {"damage": 1.0, "speed": 1.1, "range": 1.1, "traits": ["tconevo.aura_siphon", "ecological"]},
+    "shaft": {"ammo": 25, "modifier": 1.25, "traits": ["tconevo.aura_siphon", "ecological"]},
+    "core": {
+      "defense": 4.88,
+      "durability": 4.0,
+      "traits": ["tconevo.aura_infused_armor", "ecological_armor"]
+    },
+    "plate": {
+      "durability": 2.0,
+      "modifier": 1.25,
+      "toughness": 0.0,
+      "traits": ["tconevo.aura_infused_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 2.0, "traits": ["tconevo.aura_infused_armor", "ecological_armor"]}
+  },
+  "mana_string": {
+    "id": "mana_string",
+    "color": "ffc4f9ec",
+    "name": "Mana-Infused",
+    "string": {"modifier": 1.3, "traits": ["tconevo.mana_infused"]}
+  },
+  "mana_diamond": {"id": "mana_diamond", "color": "ffa0f8ff", "name": "Mana Diamond"},
+  "mana_pearl": {"id": "mana_pearl", "color": "ff0097b8", "name": "Mana Pearl"},
+  "dragonstone": {"id": "dragonstone", "color": "ffffb2e5", "name": "Dragonstone"},
+  "draconium": {
+    "id": "draconium",
+    "color": "ff1d4492",
+    "name": "Draconium",
+    "head": {
+      "durability": 576,
+      "attack": 9.0,
+      "level": 9,
+      "speed": 7.88,
+      "traits": ["tconevo.soul_rend1", "alien"]
+    },
+    "extra": {"durability": 57, "traits": ["alien"]},
+    "handle": {"durability": 38, "modifier": 1.1, "traits": ["alien"]},
+    "bow": {"damage": 3.75, "speed": 1.42, "range": 1.65, "traits": ["tconevo.soul_rend1", "alien"]},
+    "core": {"defense": 18.0, "durability": 12.0, "traits": ["alien_armor"]},
+    "plate": {"durability": 1.0, "modifier": 1.1, "toughness": 0.75, "traits": ["alien_armor"]},
+    "trim": {"durability": 1.0, "traits": ["alien_armor"]}
+  },
+  "wyvern_metal": {
+    "id": "wyvern_metal",
+    "color": "ff78518f",
+    "name": "Wyvern",
+    "head": {
+      "durability": 1605,
+      "attack": 11.25,
+      "level": 12,
+      "speed": 9.0,
+      "traits": ["tconevo.evolved", "tconevo.soul_rend1"]
+    },
+    "extra": {"durability": 150, "traits": ["tconevo.soul_rend1"]},
+    "handle": {"durability": 188, "modifier": 1.5, "traits": ["tconevo.soul_rend1"]},
+    "bow": {"damage": 6.0, "speed": 0.9, "range": 1.3, "traits": ["tconevo.evolved", "tconevo.soul_rend1"]},
+    "core": {"defense": 16.875, "durability": 16.0, "traits": ["tconevo.evolved_armor"]},
+    "plate": {"durability": 3.0, "modifier": 1.5, "toughness": 6.0, "traits": ["heavy_armor"]},
+    "trim": {"durability": 6.0, "traits": ["heavy_armor"]}
+  },
+  "draconic_metal": {
+    "id": "draconic_metal",
+    "color": "ffff921c",
+    "name": "Draconic",
+    "head": {
+      "durability": 2738,
+      "attack": 26.25,
+      "level": 13,
+      "speed": 13.5,
+      "traits": ["tconevo.evolved", "tconevo.soul_rend2"]
+    },
+    "extra": {"durability": 225, "traits": ["tconevo.soul_rend2"]},
+    "handle": {"durability": 225, "modifier": 1.75, "traits": ["tconevo.soul_rend2"]},
+    "bow": {
+      "damage": 10.0,
+      "speed": 0.85,
+      "range": 1.6,
+      "traits": ["tconevo.evolved", "tconevo.soul_rend2"]
+    },
+    "core": {"defense": 39.375, "durability": 26.0, "traits": ["tconevo.evolved_armor"]},
+    "plate": {
+      "durability": 7.0,
+      "modifier": 1.8,
+      "toughness": 10.5,
+      "traits": ["tconevo.celestial_armor", "heavy_armor"]
+    },
+    "trim": {"durability": 11.0, "traits": ["tconevo.gale_force1_armor", "heavy_armor"]}
+  },
+  "chaotic_metal": {
+    "id": "chaotic_metal",
+    "color": "ff666666",
+    "name": "Chaotic",
+    "head": {
+      "durability": 4995,
+      "attack": 48.0,
+      "level": 14,
+      "speed": 16.5,
+      "traits": ["tconevo.evolved", "tconevo.soul_rend3"]
+    },
+    "extra": {"durability": 255, "traits": ["tconevo.soul_rend3"]},
+    "handle": {"durability": 94, "modifier": 2.2, "traits": ["tconevo.soul_rend3"]},
+    "bow": {
+      "damage": 18.0,
+      "speed": 1.2,
+      "range": 2.0,
+      "traits": ["tconevo.evolved", "tconevo.soul_rend3"]
+    },
+    "core": {"defense": 72.0, "durability": 41.0, "traits": ["tconevo.evolved_armor"]},
+    "plate": {
+      "durability": 12.0,
+      "modifier": 2.2,
+      "toughness": 20.25,
+      "traits": ["tconevo.celestial_armor", "heavy_armor"]
+    },
+    "trim": {"durability": 15.0, "traits": ["tconevo.gale_force2_armor", "heavy_armor"]}
+  },
+  "ender_crystal": {"id": "ender_crystal", "color": "ff2ed284", "name": "Ender Crystal"},
+  "pulsating_crystal": {"id": "pulsating_crystal", "color": "ff6df4eb", "name": "Pulsating Crystal"},
+  "vibrant_crystal": {"id": "vibrant_crystal", "color": "ff69c328", "name": "Vibrant Crystal"},
+  "weather_crystal": {"id": "weather_crystal", "color": "ffbe96ca", "name": "Weather Crystal"},
+  "litherite": {
+    "id": "litherite",
+    "color": "ff0a8352",
+    "name": "Litherite",
+    "head": {
+      "durability": 675,
+      "attack": 9.0,
+      "level": 7,
+      "speed": 14.63,
+      "traits": ["jagged", "petramor"]
+    },
+    "extra": {"durability": 57, "traits": ["jagged", "petramor"]},
+    "handle": {"durability": 45, "modifier": 3.0, "traits": ["jagged", "petramor"]},
+    "bow": {"damage": 6.0, "speed": 2.25, "range": 3.75, "traits": ["jagged", "petramor"]},
+    "core": {"defense": 12.75, "durability": 5.0, "traits": ["rough_armor", "petravidity_armor"]},
+    "plate": {
+      "durability": 3.0,
+      "modifier": 1.0,
+      "toughness": 0.0,
+      "traits": ["rough_armor", "petravidity_armor"]
+    },
+    "trim": {"durability": 4.0, "traits": ["rough_armor", "petravidity_armor"]}
+  },
+  "erodium": {
+    "id": "erodium",
+    "color": "ff7d6793",
+    "name": "Erodium",
+    "head": {
+      "durability": 732,
+      "attack": 11.25,
+      "level": 8,
+      "speed": 15.75,
+      "traits": ["lightweight", "depthdigger"]
+    },
+    "extra": {"durability": 102, "traits": ["lightweight", "depthdigger"]},
+    "handle": {"durability": 78, "modifier": 3.0, "traits": ["lightweight", "depthdigger"]},
+    "bow": {"damage": 4.5, "speed": 2.55, "range": 3.6, "traits": ["lightweight", "depthdigger"]},
+    "core": {"defense": 13.875, "durability": 5.0, "traits": ["lightweight_armor", "subterranean_armor"]},
+    "plate": {
+      "durability": 4.0,
+      "modifier": 1.0,
+      "toughness": 0.0,
+      "traits": ["lightweight_armor", "subterranean_armor"]
+    },
+    "trim": {"durability": 5.0, "traits": ["lightweight_armor", "subterranean_armor"]}
+  },
+  "kyronite": {
+    "id": "kyronite",
+    "color": "ff47163f",
+    "name": "Kyronite",
+    "head": {
+      "durability": 789,
+      "attack": 13.5,
+      "level": 9,
+      "speed": 16.88,
+      "traits": ["tconevo.battle_furor"]
+    },
+    "extra": {"durability": 147, "traits": ["tconevo.battle_furor"]},
+    "handle": {"durability": 114, "modifier": 3.0, "traits": ["tconevo.battle_furor"]},
+    "bow": {"damage": 3.0, "speed": 2.85, "range": 3.45, "traits": ["tconevo.battle_furor"]},
+    "core": {"defense": 15.0, "durability": 6.0, "traits": ["infernal_armor"]},
+    "plate": {"durability": 4.0, "modifier": 1.0, "toughness": 0.75, "traits": ["infernal_armor"]},
+    "trim": {"durability": 5.0, "traits": ["invigorating_armor"]}
+  },
+  "pladium": {
+    "id": "pladium",
+    "color": "ff23335e",
+    "name": "Pladium",
+    "head": {
+      "durability": 843,
+      "attack": 15.75,
+      "level": 10,
+      "speed": 18.0,
+      "traits": ["tconevo.relentless"]
+    },
+    "extra": {"durability": 192, "traits": ["tconevo.relentless"]},
+    "handle": {"durability": 147, "modifier": 3.0, "traits": ["tconevo.relentless"]},
+    "bow": {"damage": 1.5, "speed": 3.15, "range": 3.3, "traits": ["tconevo.relentless"]},
+    "core": {"defense": 16.125, "durability": 7.0, "traits": ["tconevo.bulwark_armor"]},
+    "plate": {"durability": 5.0, "modifier": 1.0, "toughness": 1.5, "traits": ["tconevo.bulwark_armor"]},
+    "trim": {"durability": 5.0, "traits": ["tconevo.second_wind_armor"]}
+  },
+  "ionite": {
+    "id": "ionite",
+    "color": "ff68ccf8",
+    "name": "Ionite",
+    "head": {
+      "durability": 900,
+      "attack": 18.0,
+      "level": 11,
+      "speed": 19.13,
+      "traits": ["tconevo.deadly_precision", "tconevo.chain_lightning"]
+    },
+    "extra": {"durability": 237, "traits": ["tconevo.deadly_precision", "tconevo.chain_lightning"]},
+    "handle": {
+      "durability": 180,
+      "modifier": 3.0,
+      "traits": ["tconevo.deadly_precision", "tconevo.chain_lightning"]
+    },
+    "bow": {
+      "damage": 3.0,
+      "speed": 3.45,
+      "range": 3.15,
+      "traits": ["tconevo.deadly_precision", "tconevo.chain_lightning"]
+    },
+    "core": {"defense": 17.25, "durability": 8.0, "traits": ["tconevo.shadowstep_armor"]},
+    "plate": {
+      "durability": 5.0,
+      "modifier": 1.0,
+      "toughness": 2.625,
+      "traits": ["tconevo.shadowstep_armor"]
+    },
+    "trim": {"durability": 5.0, "traits": ["tconevo.gale_force1_armor"]}
+  },
+  "aethium": {
+    "id": "aethium",
+    "color": "ff575757",
+    "name": "Aethium",
+    "head": {
+      "durability": 957,
+      "attack": 20.25,
+      "level": 12,
+      "speed": 20.25,
+      "traits": ["tconevo.corrupting", "blindbandit"]
+    },
+    "extra": {"durability": 282, "traits": ["tconevo.corrupting", "blindbandit"]},
+    "handle": {"durability": 213, "modifier": 3.0, "traits": ["tconevo.corrupting", "blindbandit"]},
+    "bow": {"damage": 6.0, "speed": 3.75, "range": 3.0, "traits": ["tconevo.corrupting", "blindbandit"]},
+    "core": {"defense": 18.375, "durability": 8.0, "traits": ["tconevo.spectral_armor", "blindbandit"]},
+    "plate": {
+      "durability": 5.0,
+      "modifier": 1.0,
+      "toughness": 4.125,
+      "traits": ["tconevo.spectral_armor", "blindbandit"]
+    },
+    "trim": {"durability": 6.0, "traits": ["tconevo.celestial_armor"]}
+  },
+  "lonsdaleite": {
+    "id": "lonsdaleite",
+    "color": "ff575757",
+    "name": "Lonsdaleite",
+    "head": {"durability": 630, "attack": 4.5, "level": 3, "speed": 5.25, "traits": ["unnamed"]},
+    "extra": {"durability": 56, "traits": ["unnamed"]},
+    "handle": {"durability": 23, "modifier": 1.2, "traits": ["unnamed"]},
+    "bow": {"damage": 1.5, "speed": 0.9, "range": 1.2, "traits": ["unnamed"]},
+    "core": {"defense": 15.0, "durability": 16.0, "traits": ["mundane1_armor"]},
+    "plate": {"durability": 11.0, "modifier": 0.9, "toughness": 0.75, "traits": ["mundane1_armor"]},
+    "trim": {"durability": 13.0, "traits": ["mundane1_armor"]}
+  },
+  "apatite": {
+    "id": "apatite",
+    "color": "ff4baef1",
+    "name": "Apatite",
+    "head": {
+      "durability": 281,
+      "attack": 3.375,
+      "level": 1,
+      "speed": 3.0,
+      "traits": ["tconevo.fertilizing", "brittle"]
+    },
+    "extra": {"durability": 26, "traits": ["tconevo.fertilizing", "brittle"]},
+    "handle": {"durability": 8, "modifier": 0.8, "traits": ["tconevo.fertilizing", "brittle"]},
+    "core": {"defense": 3.56, "durability": 2.0, "traits": ["absorbent_armor", "cheapskate_armor"]},
+    "plate": {
+      "durability": 2.0,
+      "modifier": 0.8,
+      "toughness": 0.0,
+      "traits": ["absorbent_armor", "cheapskate_armor"]
+    },
+    "trim": {"durability": 2.0, "traits": ["absorbent_armor", "cheapskate_armor"]}
+  },
+  "essence_metal": {
+    "id": "essence_metal",
+    "color": "ff4d7018",
+    "name": "Essence-Infused",
+    "head": {"durability": 300, "attack": 3.75, "level": 2, "speed": 3.75, "traits": ["mentor"]},
+    "extra": {"durability": 38, "traits": ["mentor"]},
+    "handle": {"durability": 15, "modifier": 1.5, "traits": ["mentor"]},
+    "bow": {"damage": 0.0, "speed": 1.5, "range": 0.7, "traits": ["mentor"]},
+    "core": {"defense": 9.75, "durability": 11.0, "traits": ["apprentice_armor"]},
+    "plate": {"durability": 0.0, "modifier": 1.5, "toughness": 0.0, "traits": ["apprentice_armor"]},
+    "trim": {"durability": 2.0, "traits": ["apprentice_armor"]}
+  },
+  "meat_metal": {
+    "id": "meat_metal",
+    "color": "ff7e5132",
+    "name": "Meaty",
+    "head": {
+      "durability": 901,
+      "attack": 1.875,
+      "level": 6,
+      "speed": 3.1875,
+      "traits": ["tconevo.rejuvenating", "tasty"]
+    },
+    "extra": {"durability": 401, "traits": ["tconevo.rejuvenating", "tasty"]},
+    "handle": {"durability": -131, "modifier": 2.9, "traits": ["tconevo.rejuvenating", "tasty"]},
+    "bow": {"damage": -4.0, "speed": 0.5, "range": 0.5, "traits": ["tconevo.rejuvenating", "tasty"]},
+    "core": {"defense": 5.63, "durability": 1.5, "traits": ["tconevo.second_wind_armor", "tasty_armor"]},
+    "plate": {
+      "durability": 0.0,
+      "modifier": 3.5,
+      "toughness": 0.25,
+      "traits": ["tconevo.second_wind_armor", "tasty_armor"]
+    },
+    "trim": {"durability": 20.0, "traits": ["tconevo.second_wind_armor", "tasty_armor"]}
+  },
+  "pink_metal": {
+    "id": "pink_metal",
+    "color": "ffc279b6",
+    "name": "Pink Metal",
+    "head": {
+      "durability": 1342,
+      "attack": 6.375,
+      "level": 6,
+      "speed": 9.375,
+      "traits": ["tconevo.mortal_wounds", "unnatural"]
+    },
+    "extra": {"durability": 188, "traits": ["tconevo.mortal_wounds", "unnatural"]},
+    "handle": {"durability": 94, "modifier": 1.5, "traits": ["tconevo.mortal_wounds", "unnatural"]},
+    "bow": {"damage": 4.0, "speed": 1.1, "range": 1.0, "traits": ["tconevo.mortal_wounds", "unnatural"]},
+    "core": {
+      "defense": 16.5,
+      "durability": 25.0,
+      "traits": ["tconevo.divine_grace_armor", "vengeful_armor"]
+    },
+    "plate": {
+      "durability": 6.0,
+      "modifier": 1.0,
+      "toughness": 2.25,
+      "traits": ["tconevo.divine_grace_armor", "vengeful_armor"]
+    },
+    "trim": {"durability": 5.0, "traits": ["tconevo.divine_grace_armor", "vengeful_armor"]}
+  },
+  "rubber": {
+    "id": "rubber",
+    "color": "ff575757",
+    "name": "Rubber",
+    "head": {"durability": -300, "attack": 1.125, "level": 0, "speed": 3.75, "traits": ["squeaky"]},
+    "extra": {"durability": 38, "traits": ["crude1"]},
+    "handle": {"durability": 56, "modifier": 0.5, "traits": ["crude1"]},
+    "bow": {"damage": 0.0, "speed": 2.0, "range": 0.5, "traits": ["squeaky"]},
+    "core": {
+      "defense": 5.25,
+      "durability": 8.0,
+      "traits": ["bouncy_armor", "tconevo.thundergod_favour_armor"]
+    },
+    "plate": {
+      "durability": 3.0,
+      "modifier": 0.5,
+      "toughness": 0.0,
+      "traits": ["bouncy_armor", "tconevo.thundergod_favour_armor"]
+    },
+    "trim": {"durability": 2.0, "traits": ["bouncy_armor", "tconevo.thundergod_favour_armor"]}
+  },
+  "advanced_alloy": {
+    "id": "advanced_alloy",
+    "color": "ff515044",
+    "name": "Advanced Alloy",
+    "head": {
+      "durability": 600,
+      "attack": 6.19,
+      "level": 3,
+      "speed": 5.25,
+      "traits": ["dense", "tconevo.impact_force"]
+    },
+    "extra": {"durability": 169, "traits": ["dense", "tconevo.impact_force"]},
+    "handle": {"durability": 131, "modifier": 1.0, "traits": ["dense", "tconevo.impact_force"]},
+    "bow": {"damage": 2.0, "speed": 0.85, "range": 1.25, "traits": ["dense", "tconevo.impact_force"]},
+    "core": {"defense": 16.5, "durability": 18.0, "traits": ["dense_armor", "indomitable_armor"]},
+    "plate": {
+      "durability": 8.0,
+      "modifier": 1.0,
+      "toughness": 1.5,
+      "traits": ["dense_armor", "indomitable_armor"]
+    },
+    "trim": {"durability": 11.0, "traits": ["dense_armor", "indomitable_armor"]}
+  },
+  "energetic_metal": {
+    "id": "energetic_metal",
+    "color": "ffc83838",
+    "name": "Energium",
+    "head": {"durability": 384, "attack": 4.5, "level": 6, "speed": 6.375, "traits": ["tconevo.electric"]},
+    "extra": {"durability": 38, "traits": ["tconevo.electric"]},
+    "handle": {"durability": 30, "modifier": 0.8, "traits": ["tconevo.electric"]},
+    "bow": {"damage": 3.5, "speed": 0.75, "range": 1.0, "traits": ["tconevo.electric"]},
+    "core": {"defense": 15.0, "durability": 12.0, "traits": ["tconevo.electric_armor"]},
+    "plate": {"durability": 5.0, "modifier": 0.8, "toughness": 0.0, "traits": ["tconevo.electric_armor"]},
+    "trim": {"durability": 8.0, "traits": ["tconevo.electric_armor"]}
+  },
+  "carbon_fiber": {
+    "id": "carbon_fiber",
+    "color": "ff323232",
+    "name": "Carbon Fiber",
+    "head": {
+      "durability": 900,
+      "attack": 4.125,
+      "level": 2,
+      "speed": 4.5,
+      "traits": ["lightweight", "tconevo.relentless"]
+    },
+    "extra": {"durability": 71, "traits": ["lightweight", "tconevo.relentless"]},
+    "handle": {"durability": 53, "modifier": 1.3, "traits": ["lightweight", "tconevo.relentless"]},
+    "bow": {"damage": 1.5, "speed": 1.6, "range": 1.0, "traits": ["lightweight", "tconevo.relentless"]},
+    "core": {"defense": 7.2, "durability": 12.6, "traits": ["tconevo.bulwark_armor", "lightweight_armor"]},
+    "plate": {
+      "durability": 3.0,
+      "modifier": 0.78,
+      "toughness": 2.25,
+      "traits": ["tconevo.bulwark_armor", "lightweight_armor"]
+    },
+    "trim": {"durability": 4.8, "traits": ["tconevo.bulwark_armor", "lightweight_armor"]}
+  },
+  "iridium": {
+    "id": "iridium",
+    "color": "ffc2c1df",
+    "name": "Iridium",
+    "head": {
+      "durability": 1425,
+      "attack": 6.375,
+      "level": 9,
+      "speed": 6.75,
+      "traits": ["tconevo.overwhelm", "momentum"]
+    },
+    "extra": {"durability": 255, "traits": ["tconevo.overwhelm", "momentum"]},
+    "handle": {"durability": 120, "modifier": 0.8, "traits": ["tconevo.overwhelm", "momentum"]},
+    "bow": {"damage": 5.5, "speed": 0.6, "range": 2.0, "traits": ["tconevo.overwhelm", "momentum"]},
+    "core": {"defense": 25.92, "durability": 18.9, "traits": ["steady_armor", "tconevo.reactive_armor"]},
+    "plate": {
+      "durability": 0.0,
+      "modifier": 1.15,
+      "toughness": 1.8,
+      "traits": ["steady_armor", "tconevo.reactive_armor"]
+    },
+    "trim": {"durability": 3.96, "traits": ["steady_armor", "tconevo.reactive_armor"]}
+  },
+  "universal_metal": {
+    "id": "universal_metal",
+    "color": "ffd75dd6",
+    "name": "UU-Metal",
+    "head": {
+      "durability": 13,
+      "attack": 7.5,
+      "level": 11,
+      "speed": 11.25,
+      "traits": ["tconevo.ruination", "crumbling"]
+    },
+    "extra": {"durability": 315, "traits": ["tconevo.ruination", "crumbling"]},
+    "handle": {"durability": 0, "modifier": 2.0, "traits": ["tconevo.ruination", "crumbling"]},
+    "bow": {"damage": 0.0, "speed": 1.25, "range": 1.25, "traits": ["tconevo.ruination", "crumbling"]},
+    "core": {"defense": 13.5, "durability": 1.0, "traits": ["tconevo.phoenix_aspect_armor"]},
+    "plate": {
+      "durability": 0.0,
+      "modifier": 2.0,
+      "toughness": 0.0,
+      "traits": ["tconevo.phoenix_aspect_armor"]
+    },
+    "trim": {"durability": 11.0, "traits": ["tconevo.phoenix_aspect_armor"]}
+  },
+  "osmium": {
+    "id": "osmium",
+    "color": "ffa9bdcc",
+    "name": "Osmium",
+    "head": {"durability": 375, "attack": 4.125, "level": 5, "speed": 5.625, "traits": ["dense", "stiff"]},
+    "extra": {"durability": 131, "traits": ["dense", "stiff"]},
+    "handle": {"durability": 113, "modifier": 0.8, "traits": ["dense", "stiff"]},
+    "bow": {"damage": 6.0, "speed": 0.4, "range": 1.75, "traits": ["dense", "stiff"]},
+    "core": {"defense": 10.5, "durability": 14.0, "traits": ["dense_armor", "heavy_armor"]},
+    "plate": {
+      "durability": 5.0,
+      "modifier": 0.8,
+      "toughness": 0.375,
+      "traits": ["dense_armor", "heavy_armor"]
+    },
+    "trim": {"durability": 6.0, "traits": ["dense_armor", "heavy_armor"]}
+  },
+  "refined_obsidian": {
+    "id": "refined_obsidian",
+    "color": "ff7d659b",
+    "name": "Refined Obsidian",
+    "head": {
+      "durability": 825,
+      "attack": 5.625,
+      "level": 8,
+      "speed": 6.0,
+      "traits": ["duritos", "tconevo.impact_force"]
+    },
+    "extra": {"durability": 225, "traits": ["duritos", "tconevo.impact_force"]},
+    "handle": {"durability": 38, "modifier": 1.25, "traits": ["duritos", "tconevo.impact_force"]},
+    "bow": {"damage": 7.0, "speed": 0.65, "range": 1.35, "traits": ["duritos", "tconevo.impact_force"]},
+    "core": {
+      "defense": 10.35,
+      "durability": 17.4,
+      "traits": ["duritos_ranch_armor", "tconevo.bulwark_armor"]
+    },
+    "plate": {
+      "durability": 3.0,
+      "modifier": 1.25,
+      "toughness": 1.875,
+      "traits": ["duritos_ranch_armor", "tconevo.bulwark_armor"]
+    },
+    "trim": {"durability": 8.0, "traits": ["duritos_ranch_armor", "tconevo.bulwark_armor"]}
+  },
+  "refined_glowstone": {
+    "id": "refined_glowstone",
+    "color": "ffeecd48",
+    "name": "Refined Glowstone",
+    "head": {
+      "durability": 225,
+      "attack": 3.75,
+      "level": 6,
+      "speed": 7.5,
+      "traits": ["tconevo.luminiferous", "sharp"]
+    },
+    "extra": {"durability": 41, "traits": ["tconevo.luminiferous", "sharp"]},
+    "handle": {"durability": 23, "modifier": 0.8, "traits": ["tconevo.luminiferous", "sharp"]},
+    "bow": {"damage": 4.0, "speed": 1.0, "range": 1.25, "traits": ["tconevo.luminiferous", "sharp"]},
+    "core": {"defense": 13.5, "durability": 4.0, "traits": ["tconevo.radiant_armor", "indomitable_armor"]},
+    "plate": {
+      "durability": 5.0,
+      "modifier": 0.8,
+      "toughness": 1.125,
+      "traits": ["tconevo.radiant_armor", "indomitable_armor"]
+    },
+    "trim": {"durability": 5.0, "traits": ["tconevo.radiant_armor", "indomitable_armor"]}
+  },
+  "polyethylene": {
+    "id": "polyethylene",
+    "color": "ffe0e0e0",
+    "name": "HDPE",
+    "head": {
+      "durability": 165,
+      "attack": 2.25,
+      "level": 0,
+      "speed": 3.75,
+      "traits": ["cheap", "crude1", "tconevo.foot_fleet"]
+    },
+    "extra": {"durability": 30, "traits": ["cheap", "crude1", "tconevo.foot_fleet"]},
+    "handle": {"durability": 19, "modifier": 0.5, "traits": ["cheap", "crude1", "tconevo.foot_fleet"]},
+    "bow": {
+      "damage": 0.0,
+      "speed": 1.75,
+      "range": 0.6,
+      "traits": ["cheap", "crude1", "tconevo.foot_fleet"]
+    },
+    "shaft": {"ammo": 38, "modifier": 0.75, "traits": ["cheap", "crude1", "tconevo.foot_fleet"]},
+    "core": {
+      "defense": 3.75,
+      "durability": 2.0,
+      "traits": ["cheap_armor", "mundane1_armor", "tconevo.reactive_armor"]
+    },
+    "plate": {
+      "durability": 1.0,
+      "modifier": 0.5,
+      "toughness": 0.375,
+      "traits": ["cheap_armor", "mundane1_armor", "tconevo.reactive_armor"]
+    },
+    "trim": {"durability": 2.0, "traits": ["cheap_armor", "mundane1_armor", "tconevo.reactive_armor"]}
+  },
+  "ghostwood": {
+    "id": "ghostwood",
+    "color": "ffc1c1c1",
+    "name": "Ghostwood",
+    "head": {
+      "durability": 54,
+      "attack": 5.63,
+      "level": 0,
+      "speed": 6.75,
+      "traits": ["tconevo.foot_fleet", "mirabile"]
+    },
+    "fletching": {"accuracy": 1.0, "modifier": 0.9, "traits": ["tconevo.foot_fleet", "mirabile"]},
+    "extra": {"durability": 24, "traits": ["tconevo.foot_fleet", "mirabile"]},
+    "handle": {"durability": 12, "modifier": 2.7, "traits": ["tconevo.foot_fleet", "mirabile"]},
+    "bow": {"damage": 0.0, "speed": 4.5, "range": 3.0, "traits": ["tconevo.foot_fleet", "mirabile"]},
+    "shaft": {"ammo": 12, "modifier": 0.9, "traits": ["tconevo.foot_fleet", "mirabile"]},
+    "core": {"defense": 4.5, "durability": 4.0, "traits": ["tconevo.spectral_armor"]},
+    "plate": {"durability": 2.0, "modifier": 1.8, "toughness": 0.0, "traits": ["tconevo.spectral_armor"]},
+    "trim": {"durability": 0.0, "traits": ["tconevo.spectral_armor"]}
+  },
+  "bloodwood": {
+    "id": "bloodwood",
+    "color": "ff761d12",
+    "name": "Bloodwood",
+    "head": {
+      "durability": 263,
+      "attack": 3.75,
+      "level": 3,
+      "speed": 5.25,
+      "traits": ["tconevo.vampiric", "ecological"]
+    },
+    "extra": {"durability": 45, "traits": ["tconevo.vampiric", "ecological"]},
+    "handle": {"durability": 30, "modifier": 0.75, "traits": ["tconevo.vampiric", "ecological"]},
+    "bow": {"damage": 2.5, "speed": 0.8, "range": 1.2, "traits": ["tconevo.vampiric", "ecological"]},
+    "shaft": {"ammo": 0, "modifier": 1.5, "traits": ["tconevo.vampiric", "ecological"]},
+    "core": {"defense": 11.25, "durability": 5.0, "traits": ["infernal_armor", "ecological_armor"]},
+    "plate": {
+      "durability": 4.0,
+      "modifier": 0.75,
+      "toughness": 1.5,
+      "traits": ["infernal_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 5.0, "traits": ["infernal_armor", "ecological_armor"]}
+  },
+  "darkwood": {
+    "id": "darkwood",
+    "color": "ff275293",
+    "name": "Darkwood",
+    "head": {
+      "durability": 336,
+      "attack": 10.5,
+      "level": 1,
+      "speed": 12.0,
+      "traits": ["tconevo.sundering", "ecological"]
+    },
+    "extra": {"durability": 136, "traits": ["tconevo.sundering", "ecological"]},
+    "handle": {"durability": 92, "modifier": 3.6, "traits": ["tconevo.sundering", "ecological"]},
+    "bow": {"damage": 4.0, "speed": 3.6, "range": 4.4, "traits": ["tconevo.sundering", "ecological"]},
+    "shaft": {"ammo": 10, "modifier": 1.0, "traits": ["tconevo.sundering", "ecological"]},
+    "core": {"defense": 18.0, "durability": 12.0, "traits": ["tconevo.stifling_armor", "ecological_armor"]},
+    "plate": {
+      "durability": 4.0,
+      "modifier": 3.6,
+      "toughness": 0.0,
+      "traits": ["tconevo.stifling_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 4.0, "traits": ["tconevo.stifling_armor", "ecological_armor"]}
+  },
+  "fusewood": {
+    "id": "fusewood",
+    "color": "ff365841",
+    "name": "Fusewood",
+    "head": {
+      "durability": 36,
+      "attack": 6.75,
+      "level": 2,
+      "speed": 8.25,
+      "traits": ["tconevo.blasting", "ecological"]
+    },
+    "extra": {"durability": 82, "traits": ["tconevo.blasting", "ecological"]},
+    "handle": {"durability": 46, "modifier": 2.0, "traits": ["tconevo.blasting", "ecological"]},
+    "bow": {"damage": 8.0, "speed": 1.5, "range": 2.5, "traits": ["tconevo.blasting", "ecological"]},
+    "shaft": {"ammo": 4, "modifier": 1.25, "traits": ["tconevo.blasting", "ecological"]},
+    "core": {"defense": 27.0, "durability": 12.0, "traits": ["steady_armor", "ecological_armor"]},
+    "plate": {
+      "durability": 6.0,
+      "modifier": 3.0,
+      "toughness": 2.25,
+      "traits": ["steady_armor", "ecological_armor"]
+    },
+    "trim": {"durability": 3.0, "traits": ["steady_armor", "ecological_armor"]}
+  },
+  "dark_matter": {
+    "id": "dark_matter",
+    "color": "ff2f2f2f",
+    "name": "Dark Matter",
+    "head": {
+      "durability": 2400,
+      "attack": 10.5,
+      "level": 13,
+      "speed": 11.25,
+      "traits": ["tconevo.culling", "tconevo.staggering", "brownmagic"]
+    },
+    "extra": {"durability": 405, "traits": ["tconevo.culling", "tconevo.staggering"]},
+    "handle": {"durability": 240, "modifier": 1.0, "traits": ["tconevo.culling", "tconevo.staggering"]},
+    "bow": {
+      "damage": 4.0,
+      "speed": 0.85,
+      "range": 1.5,
+      "traits": ["tconevo.culling", "tconevo.staggering", "brownmagic"]
+    },
+    "core": {"defense": 18.0, "durability": 24.0, "traits": ["tconevo.superdense_armor", "dense_armor"]},
+    "plate": {
+      "durability": 18.0,
+      "modifier": 1.0,
+      "toughness": 3.75,
+      "traits": ["dense_armor", "infernal_armor"]
+    },
+    "trim": {"durability": 21.0, "traits": ["dense_armor", "infernal_armor"]}
+  },
+  "red_matter": {
+    "id": "red_matter",
+    "color": "ff9b060b",
+    "name": "Red Matter",
+    "head": {
+      "durability": 5400,
+      "attack": 17.25,
+      "level": 14,
+      "speed": 15.0,
+      "traits": ["tconevo.juggernaut", "tconevo.overwhelm", "brownmagic"]
+    },
+    "extra": {"durability": 900, "traits": ["tconevo.juggernaut", "tconevo.overwhelm"]},
+    "handle": {"durability": 540, "modifier": 1.0, "traits": ["tconevo.juggernaut", "tconevo.overwhelm"]},
+    "bow": {
+      "damage": 10.0,
+      "speed": 0.75,
+      "range": 2.0,
+      "traits": ["tconevo.juggernaut", "tconevo.overwhelm", "brownmagic"]
+    },
+    "core": {"defense": 27.0, "durability": 36.0, "traits": ["tconevo.ultradense_armor", "dense_armor"]},
+    "plate": {
+      "durability": 27.0,
+      "modifier": 1.0,
+      "toughness": 6.0,
+      "traits": ["dense_armor", "tconevo.hearth_embrace_armor"]
+    },
+    "trim": {"durability": 32.0, "traits": ["dense_armor", "tconevo.hearth_embrace_armor"]}
+  },
+  "fluxed_electrum": {
+    "id": "fluxed_electrum",
+    "color": "fff3d363",
+    "name": "Fluxed Electrum",
+    "head": {
+      "durability": 600,
+      "attack": 5.25,
+      "level": 9,
+      "speed": 6.0,
+      "traits": ["tconevo.energized1", "magnetic2"]
+    },
+    "extra": {"durability": 90, "traits": ["tconevo.energized1", "magnetic2"]},
+    "handle": {"durability": 68, "modifier": 0.6, "traits": ["tconevo.energized1", "magnetic2"]},
+    "bow": {"damage": 2.0, "speed": 0.8, "range": 1.25, "traits": ["tconevo.energized1", "magnetic2"]},
+    "core": {
+      "defense": 16.5,
+      "durability": 14.0,
+      "traits": ["tconevo.energized1_armor", "magnetic2_armor"]
+    },
+    "plate": {
+      "durability": 9.0,
+      "modifier": 0.6,
+      "toughness": 1.5,
+      "traits": ["tconevo.energized1_armor", "magnetic2_armor"]
+    },
+    "trim": {"durability": 11.0, "traits": ["tconevo.energized1_armor", "magnetic2_armor"]}
+  },
+  "flux_crystal": {
+    "id": "flux_crystal",
+    "color": "ffb9262d",
+    "name": "Flux Crystal",
+    "head": {
+      "durability": 375,
+      "attack": 6.0,
+      "level": 4,
+      "speed": 5.25,
+      "traits": ["tconevo.energized1", "tconevo.aftershock1"]
+    },
+    "extra": {"durability": 60, "traits": ["tconevo.energized1", "tconevo.aftershock1"]},
+    "handle": {"durability": 30, "modifier": 0.9, "traits": ["tconevo.energized1", "tconevo.aftershock1"]},
+    "bow": {
+      "damage": 0.0,
+      "speed": 1.2,
+      "range": 1.0,
+      "traits": ["tconevo.energized1", "tconevo.aftershock1"]
+    },
+    "core": {
+      "defense": 13.5,
+      "durability": 11.0,
+      "traits": ["tconevo.energized1_armor", "shielding_armor"]
+    },
+    "plate": {
+      "durability": 7.0,
+      "modifier": 1.0,
+      "toughness": 3.0,
+      "traits": ["tconevo.energized1_armor", "shielding_armor"]
+    },
+    "trim": {"durability": 9.0, "traits": ["tconevo.energized1_armor", "shielding_armor"]}
+  },
+  "gelid_enderium": {
+    "id": "gelid_enderium",
+    "color": "ff127476",
+    "name": "Gelid Enderium",
+    "head": {
+      "durability": 2100,
+      "attack": 16.5,
+      "level": 13,
+      "speed": 15.0,
+      "traits": ["tconevo.energized2", "tconevo.juggernaut"]
+    },
+    "extra": {"durability": 262, "traits": ["tconevo.energized2", "tconevo.juggernaut"]},
+    "handle": {"durability": 210, "modifier": 1.5, "traits": ["tconevo.energized2", "tconevo.juggernaut"]},
+    "bow": {
+      "damage": 4.0,
+      "speed": 1.5,
+      "range": 1.5,
+      "traits": ["tconevo.energized2", "tconevo.juggernaut"]
+    },
+    "core": {
+      "defense": 40.5,
+      "durability": 36.0,
+      "traits": ["tconevo.energized2_armor", "tconevo.chilling_touch_armor"]
+    },
+    "plate": {
+      "durability": 26.0,
+      "modifier": 1.5,
+      "toughness": 6.0,
+      "traits": ["tconevo.energized2_armor", "tconevo.chilling_touch_armor"]
+    },
+    "trim": {"durability": 32.0, "traits": ["tconevo.energized2_armor", "tconevo.chilling_touch_armor"]}
+  },
+  "gelid_gem": {
+    "id": "gelid_gem",
+    "color": "ff3aadad",
+    "name": "Gelid Gem",
+    "head": {
+      "durability": 1350,
+      "attack": 18.0,
+      "level": 13,
+      "speed": 13.5,
+      "traits": ["tconevo.energized2", "tconevo.aftershock2"]
+    },
+    "extra": {"durability": 202, "traits": ["tconevo.energized2", "tconevo.aftershock2"]},
+    "handle": {"durability": 136, "modifier": 2.0, "traits": ["tconevo.energized2", "tconevo.aftershock2"]},
+    "bow": {
+      "damage": 0.0,
+      "speed": 3.0,
+      "range": 1.1,
+      "traits": ["tconevo.energized2", "tconevo.aftershock2"]
+    },
+    "core": {
+      "defense": 34.5,
+      "durability": 28.0,
+      "traits": ["tconevo.energized2_armor", "tconevo.reactive_armor"]
+    },
+    "plate": {
+      "durability": 22.0,
+      "modifier": 2.0,
+      "toughness": 10.5,
+      "traits": ["tconevo.energized2_armor", "tconevo.reactive_armor"]
+    },
+    "trim": {"durability": 26.0, "traits": ["tconevo.energized2_armor", "tconevo.reactive_armor"]}
+  },
+  "fluxed_string": {
+    "id": "fluxed_string",
+    "color": "ffd7cece",
+    "name": "Fluxed",
+    "string": {"modifier": 1.25, "traits": ["tconevo.aftershock1"]}
+  },
+  "void_metal": {
+    "id": "void_metal",
+    "color": "ff63186f",
+    "name": "Void Metal",
+    "head": {
+      "durability": 510,
+      "attack": 6.75,
+      "level": 10,
+      "speed": 9.0,
+      "traits": ["tconevo.ruination", "tconevo.sundering", "tconevo.warping"]
+    },
+    "extra": {"durability": 71, "traits": ["tconevo.ruination", "tconevo.sundering", "tconevo.warping"]},
+    "handle": {
+      "durability": 0,
+      "modifier": 1.8,
+      "traits": ["tconevo.ruination", "tconevo.sundering", "tconevo.warping"]
+    },
+    "bow": {
+      "damage": 5.0,
+      "speed": 1.05,
+      "range": 0.8,
+      "traits": ["tconevo.ruination", "tconevo.sundering", "tconevo.warping"]
+    },
+    "core": {
+      "defense": 22.5,
+      "durability": 16.0,
+      "traits": ["tconevo.chilling_touch_armor", "tconevo.stifling_armor", "tconevo.warping_armor"]
+    },
+    "plate": {
+      "durability": 0.0,
+      "modifier": 1.8,
+      "toughness": 2.75,
+      "traits": ["tconevo.chilling_touch_armor", "tconevo.stifling_armor", "tconevo.warping_armor"]
+    },
+    "trim": {
+      "durability": 5.0,
+      "traits": ["tconevo.chilling_touch_armor", "tconevo.stifling_armor", "tconevo.warping_armor"]
+    }
+  },
+  "primal_metal": {
+    "id": "primal_metal",
+    "color": "ffd23c84",
+    "name": "Primal Metal",
+    "head": {
+      "durability": 928,
+      "attack": 7.88,
+      "level": 12,
+      "speed": 10.13,
+      "traits": ["tconevo.corrupting", "tconevo.culling"]
+    },
+    "extra": {"durability": 4, "traits": ["tconevo.corrupting", "tconevo.culling"]},
+    "handle": {"durability": 0, "modifier": 1.0, "traits": ["tconevo.corrupting", "tconevo.culling"]},
+    "bow": {
+      "damage": 12.0,
+      "speed": 1.5,
+      "range": 1.0,
+      "traits": ["tconevo.corrupting", "tconevo.culling"]
+    },
+    "core": {"defense": 24.75, "durability": 13.0, "traits": ["tconevo.gale_force1_armor"]},
+    "plate": {
+      "durability": 0.0,
+      "modifier": 1.0,
+      "toughness": 6.88,
+      "traits": ["tconevo.gale_force1_armor"]
+    },
+    "trim": {"durability": 1.0, "traits": ["tconevo.phoenix_aspect_armor"]}
+  },
+  "quicksilver": {"id": "quicksilver", "color": "ffbdbcef", "name": "Quicksilver"},
+  "enchanted_fabric": {
+    "id": "enchanted_fabric",
+    "color": "ff5893d5",
+    "name": "Enchanted Fabric",
+    "string": {"modifier": 0.9, "traits": ["tconevo.modifiable1"]},
+    "core": {"defense": 9.0, "durability": 8.0, "traits": ["tconevo.aura_affinity1_armor"]},
+    "plate": {
+      "durability": 1.0,
+      "modifier": 0.9,
+      "toughness": 0.0,
+      "traits": ["tconevo.aura_affinity1_armor"]
+    },
+    "trim": {"durability": 1.0, "traits": ["tconevo.aura_affinity1_armor"]}
+  },
+  "tin": {
+    "id": "tin",
+    "color": "ff98acb9",
+    "name": "Tin",
+    "head": {"durability": 113, "attack": 3.0, "level": 1, "speed": 3.375, "traits": ["crude1"]},
+    "extra": {"durability": 15, "traits": ["crude1"]},
+    "handle": {"durability": 8, "modifier": 0.8, "traits": ["crude1"]},
+    "bow": {"damage": 0.0, "speed": 0.9, "range": 1.25, "traits": ["crude1"]},
+    "core": {"defense": 6.75, "durability": 6.0, "traits": ["mundane1_armor"]},
+    "plate": {"durability": 1.0, "modifier": 0.8, "toughness": 0.0, "traits": ["mundane1_armor"]},
+    "trim": {"durability": 1.0, "traits": ["mundane1_armor"]}
+  },
+  "aluminium": {
+    "id": "aluminium",
+    "color": "ffd6d7e2",
+    "name": "Aluminium",
+    "head": {"durability": 169, "attack": 3.0, "level": 1, "speed": 7.5, "traits": ["lightweight"]},
+    "extra": {"durability": 26, "traits": ["lightweight"]},
+    "handle": {"durability": 19, "modifier": 0.9, "traits": ["lightweight"]},
+    "bow": {"damage": 1.0, "speed": 1.0, "range": 1.1, "traits": ["lightweight"]},
+    "core": {"defense": 7.5, "durability": 9.0, "traits": ["featherweight_armor"]},
+    "plate": {"durability": 1.0, "modifier": 0.9, "toughness": 0.0, "traits": ["featherweight_armor"]},
+    "trim": {"durability": 1.0, "traits": ["featherweight_armor"]}
+  },
+  "nickel": {
+    "id": "nickel",
+    "color": "ffbfb684",
+    "name": "Nickel",
+    "head": {
+      "durability": 225,
+      "attack": 4.125,
+      "level": 6,
+      "speed": 4.875,
+      "traits": ["tconevo.impact_force"]
+    },
+    "extra": {"durability": 45, "traits": ["magnetic1"]},
+    "handle": {"durability": 26, "modifier": 0.75, "traits": ["magnetic1"]},
+    "bow": {"damage": 2.0, "speed": 0.65, "range": 1.5, "traits": ["tconevo.impact_force"]},
+    "core": {"defense": 10.5, "durability": 11.0, "traits": ["tconevo.bulwark_armor"]},
+    "plate": {"durability": 2.0, "modifier": 0.75, "toughness": 0.0, "traits": ["magnetic1_armor"]},
+    "trim": {"durability": 2.0, "traits": ["magnetic1_armor"]}
+  },
+  "platinum": {
+    "id": "platinum",
+    "color": "ff61d1f3",
+    "name": "Platinum",
+    "head": {
+      "durability": 1050,
+      "attack": 4.875,
+      "level": 9,
+      "speed": 6.75,
+      "traits": ["coldblooded", "heavy_metal"]
+    },
+    "extra": {"durability": 75, "traits": ["tconevo.deadly_precision", "heavy_metal"]},
+    "handle": {"durability": 90, "modifier": 0.8, "traits": ["tconevo.deadly_precision", "heavy_metal"]},
+    "bow": {"damage": 8.0, "speed": 1.0, "range": 0.8, "traits": ["coldblooded", "heavy_metal"]},
+    "core": {"defense": 15.75, "durability": 26.0, "traits": ["prideful_armor", "heavy_armor"]},
+    "plate": {
+      "durability": 2.0,
+      "modifier": 0.8,
+      "toughness": 1.5,
+      "traits": ["tconevo.divine_grace_armor", "heavy_armor"]
+    },
+    "trim": {"durability": 2.0, "traits": ["tconevo.divine_grace_armor", "heavy_armor"]}
+  },
+  "invar": {
+    "id": "invar",
+    "color": "ff93a49d",
+    "name": "Invar",
+    "head": {"durability": 319, "attack": 4.125, "level": 5, "speed": 4.875, "traits": ["stiff"]},
+    "extra": {"durability": 38, "traits": ["duritos"]},
+    "handle": {"durability": 15, "modifier": 1.25, "traits": ["duritos"]},
+    "bow": {"damage": 6.0, "speed": 0.5, "range": 1.75, "traits": ["stiff"]},
+    "core": {"defense": 12.0, "durability": 16.0, "traits": ["steady_armor"]},
+    "plate": {"durability": 1.0, "modifier": 1.25, "toughness": 0.75, "traits": ["duritos_ranch_armor"]},
+    "trim": {"durability": 1.0, "traits": ["duritos_ranch_armor"]}
+  },
+  "constantan": {
+    "id": "constantan",
+    "color": "ffbf9f5f",
+    "name": "Constantan",
+    "head": {"durability": 206, "attack": 3.375, "level": 6, "speed": 4.5, "traits": ["aridiculous"]},
+    "extra": {"durability": 30, "traits": ["freezing"]},
+    "handle": {"durability": 8, "modifier": 1.1, "traits": ["freezing"]},
+    "bow": {"damage": 3.0, "speed": 0.75, "range": 1.25, "traits": ["aridiculous"]},
+    "core": {
+      "defense": 9.0,
+      "durability": 10.0,
+      "traits": ["tconevo.hearth_embrace_armor", "absorbent_armor"]
+    },
+    "plate": {
+      "durability": 1.0,
+      "modifier": 1.1,
+      "toughness": 0.0,
+      "traits": ["tconevo.chilling_touch_armor", "absorbent_armor"]
+    },
+    "trim": {"durability": 1.0, "traits": ["tconevo.chilling_touch_armor", "absorbent_armor"]}
+  },
+  "signalum": {
+    "id": "signalum",
+    "color": "ffdf5c00",
+    "name": "Signalum",
+    "head": {
+      "durability": 113,
+      "attack": 3.375,
+      "level": 6,
+      "speed": 9.75,
+      "traits": ["tconevo.relentless", "tconevo.aftershock1", "bloodymary"]
+    },
+    "extra": {"durability": 11, "traits": ["tconevo.relentless", "tconevo.aftershock1", "bloodymary"]},
+    "handle": {
+      "durability": 0,
+      "modifier": 0.7,
+      "traits": ["tconevo.relentless", "tconevo.aftershock1", "bloodymary"]
+    },
+    "bow": {
+      "damage": -4.0,
+      "speed": 5.0,
+      "range": 1.0,
+      "traits": ["tconevo.relentless", "tconevo.aftershock1", "bloodymary"]
+    },
+    "core": {"defense": 12.0, "durability": 12.0, "traits": ["lightweight_armor", "invigorating_armor"]},
+    "plate": {
+      "durability": 0.0,
+      "modifier": 1.4,
+      "toughness": 1.0,
+      "traits": ["lightweight_armor", "invigorating_armor"]
+    },
+    "trim": {"durability": 21.0, "traits": ["lightweight_armor", "invigorating_armor"]}
+  },
+  "lumium": {
+    "id": "lumium",
+    "color": "ffdde38d",
+    "name": "Lumium",
+    "head": {
+      "durability": 188,
+      "attack": 4.125,
+      "level": 6,
+      "speed": 6.75,
+      "traits": ["illuminati", "rudeawakening"]
+    },
+    "extra": {"durability": 15, "traits": ["tconevo.opportunist", "rudeawakening"]},
+    "handle": {"durability": 4, "modifier": 0.8, "traits": ["tconevo.opportunist", "rudeawakening"]},
+    "bow": {"damage": 2.0, "speed": 1.0, "range": 1.15, "traits": ["illuminati", "rudeawakening"]},
+    "core": {"defense": 12.75, "durability": 16.0, "traits": ["tconevo.radiant_armor", "illuminati"]},
+    "plate": {
+      "durability": 0.0,
+      "modifier": 1.6,
+      "toughness": 1.0,
+      "traits": ["indomitable_armor", "illuminati"]
+    },
+    "trim": {"durability": 21.0, "traits": ["indomitable_armor", "illuminati"]}
+  },
+  "enderium": {
+    "id": "enderium",
+    "color": "ff0e5f61",
+    "name": "Enderium",
+    "head": {
+      "durability": 1275,
+      "attack": 6.75,
+      "level": 10,
+      "speed": 6.0,
+      "traits": ["tconevo.mortal_wounds"]
+    },
+    "extra": {"durability": 135, "traits": ["enderference"]},
+    "handle": {"durability": 113, "modifier": 1.25, "traits": ["enderference"]},
+    "bow": {"damage": 7.0, "speed": 0.75, "range": 1.5, "traits": ["tconevo.mortal_wounds"]},
+    "core": {"defense": 18.375, "durability": 28.0, "traits": ["vengeful_armor"]},
+    "plate": {"durability": 1.0, "modifier": 1.25, "toughness": 2.625, "traits": ["enderport_armor"]},
+    "trim": {"durability": 2.0, "traits": ["enderport_armor"]}
+  },
+  "boron": {
+    "id": "boron",
+    "color": "ff7d7d7d",
+    "name": "Boron",
+    "head": {"durability": 492, "attack": 6.75, "level": 8, "speed": 6.0, "traits": ["dense", "stiff"]},
+    "handle": {"durability": 102, "modifier": 0.85, "traits": ["stiff"]},
+    "extra": {"durability": 18, "traits": ["stiff"]},
+    "bow": {"damage": 4.5, "speed": 0.425, "range": 1.7, "traits": ["dense", "stiff"]},
+    "core": {"defense": 19.13, "durability": 12.0, "traits": ["dense_armor", "indomitable_armor"]},
+    "plate": {"durability": 4.0, "modifier": 0.85, "toughness": 0.9, "traits": ["indomitable_armor"]},
+    "trim": {"durability": 5.0, "traits": ["indomitable_armor"]}
+  },
+  "tough": {
+    "id": "tough",
+    "color": "ff271841",
+    "name": "Tough Alloy",
+    "head": {"durability": 836, "attack": 7.5, "level": 7, "speed": 7.5, "traits": ["dense", "momentum"]},
+    "handle": {"durability": 174, "modifier": 1.1, "traits": ["dense"]},
+    "extra": {"durability": 23, "traits": ["dense"]},
+    "bow": {"damage": 5.0, "speed": 0.55, "range": 2.2, "traits": ["dense", "momentum"]},
+    "core": {"defense": 21.38, "durability": 12.98, "traits": ["ambitious_armor", "steady_armor"]},
+    "plate": {"durability": 6.0, "modifier": 1.1, "toughness": 2.03, "traits": ["steady_armor"]},
+    "trim": {"durability": 6.0, "traits": ["steady_armor"]}
+  },
+  "hard_carbon": {
+    "id": "hard_carbon",
+    "color": "ff195970",
+    "name": "Hard Carbon",
+    "head": {
+      "durability": 747,
+      "attack": 5.63,
+      "level": 7,
+      "speed": 8.25,
+      "traits": ["lightweight", "sharp"]
+    },
+    "handle": {"durability": 233, "modifier": 1.0, "traits": ["lightweight"]},
+    "extra": {"durability": 35, "traits": ["lightweight"]},
+    "bow": {"damage": 5.0, "speed": 0.5, "range": 2.0, "traits": ["lightweight", "sharp"]},
+    "core": {"defense": 20.25, "durability": 14.04, "traits": ["lightweight_armor", "prideful_armor"]},
+    "plate": {"durability": 7.0, "modifier": 1.0, "toughness": 1.13, "traits": ["lightweight_armor"]},
+    "trim": {"durability": 5.0, "traits": ["lightweight_armor"]}
+  },
+  "boron_nitride": {
+    "id": "boron_nitride",
+    "color": "ce75b269",
+    "name": "Boron Nitride",
+    "head": {
+      "durability": 1736,
+      "attack": 8.25,
+      "level": 9,
+      "speed": 9.0,
+      "traits": ["jagged", "splintering"]
+    },
+    "handle": {"durability": 144, "modifier": 0.75, "traits": ["splintering"]},
+    "extra": {"durability": 120, "traits": ["splintering"]},
+    "bow": {"damage": 5.5, "speed": 0.375, "range": 1.5, "traits": ["jagged", "splintering"]},
+    "core": {"defense": 22.5, "durability": 32.0, "traits": ["ambitious_armor", "spiny_armor"]},
+    "plate": {"durability": 6.0, "modifier": 0.75, "toughness": 3.99, "traits": ["spiny_armor"]},
+    "trim": {"durability": 5.0, "traits": ["spiny_armor"]}
+  },
+  "thorium": {
+    "id": "thorium",
+    "color": "ff292929",
+    "name": "Thorium",
+    "head": {"durability": 135, "attack": 3.375, "level": 8, "speed": 6.75, "traits": ["withering"]},
+    "handle": {"durability": 42, "modifier": 0.75, "traits": ["poisonous", "withering"]},
+    "extra": {"durability": 8, "traits": ["poisonous", "withering"]},
+    "bow": {"damage": 4.5, "speed": 0.375, "range": 1.5, "traits": ["withering"]},
+    "core": {"defense": 11.625, "durability": 8.0, "traits": ["withering_armor"]},
+    "plate": {
+      "durability": 3.0,
+      "modifier": 0.75,
+      "toughness": 0.825,
+      "traits": ["heavy_armor", "withering_armor"]
+    },
+    "trim": {"durability": 4.0, "traits": ["heavy_armor", "withering_armor"]}
+  },
+  "uranium": {
+    "id": "uranium",
+    "color": "ff406340",
+    "name": "Uranium",
+    "head": {"durability": 145, "attack": 3.0, "level": 7, "speed": 5.625, "traits": ["poisonous"]},
+    "handle": {"durability": 45, "modifier": 0.8, "traits": ["poisonous", "withering"]},
+    "extra": {"durability": 8, "traits": ["poisonous", "withering"]},
+    "bow": {"damage": 4.0, "speed": 0.4, "range": 1.6, "traits": ["poisonous"]},
+    "core": {"defense": 10.875, "durability": 8.0, "traits": ["poisonous_armor"]},
+    "plate": {
+      "durability": 3.0,
+      "modifier": 0.8,
+      "toughness": 0.525,
+      "traits": ["heavy_armor", "poisonous_armor"]
+    },
+    "trim": {"durability": 4.0, "traits": ["heavy_armor", "poisonous_armor"]}
+  },
+  "magnesium": {
+    "id": "magnesium",
+    "color": "ffe3bddf",
+    "name": "Magnesium",
+    "head": {
+      "durability": 118,
+      "attack": 2.625,
+      "level": 8,
+      "speed": 8.25,
+      "traits": ["holy", "lightweight"]
+    },
+    "handle": {"durability": 37, "modifier": 1.0, "traits": ["lightweight"]},
+    "extra": {"durability": 5, "traits": ["lightweight"]},
+    "bow": {"damage": 3.5, "speed": 0.5, "range": 2.0, "traits": ["holy", "lightweight"]},
+    "core": {"defense": 9.375, "durability": 7.0, "traits": ["blessed_armor", "featherweight_armor"]},
+    "plate": {"durability": 3.0, "modifier": 1.0, "toughness": 0.15, "traits": ["featherweight_armor"]},
+    "trim": {"durability": 4.0, "traits": ["featherweight_armor"]}
+  },
+  "chocolate": {
+    "id": "chocolate",
+    "color": "ff581e0c",
+    "name": "Chocolate",
+    "head": {"durability": 319, "attack": 1.5, "level": 0, "speed": 1.5, "traits": ["moldable2", "tasty"]},
+    "handle": {"durability": 6, "modifier": 0.15, "traits": ["moldable1", "uplifting"]},
+    "extra": {"durability": 6, "traits": ["moldable1", "uplifting"]},
+    "bow": {"damage": 2.0, "speed": 0.075, "range": 0.3, "traits": ["moldable2", "tasty"]},
+    "core": {"defense": 0.9, "durability": 1.0, "traits": ["moldable2_armor", "tasty_armor"]},
+    "plate": {
+      "durability": 0.0,
+      "modifier": 0.65,
+      "toughness": 0.0,
+      "traits": ["moldable1_armor", "uplifting_armor"]
+    },
+    "trim": {"durability": 0.0, "traits": ["moldable1_armor", "uplifting_armor"]}
+  },
+  "cheese": {
+    "id": "cheese",
+    "color": "fff2c132",
+    "name": "Cheese",
+    "head": {"durability": 225, "attack": 1.5, "level": 0, "speed": 3.0, "traits": ["ratty", "tasty"]},
+    "handle": {"durability": 30, "modifier": 1.5, "traits": ["ratty", "tasty"]},
+    "extra": {"durability": 113, "traits": ["ratty", "tasty"]},
+    "bow": {"damage": -0.5, "speed": 1.5, "range": 2.0, "traits": ["ratty", "tasty"]},
+    "core": {"defense": 5.0625, "durability": 8.0, "traits": ["ratty", "tasty"]},
+    "plate": {"durability": 11.0, "modifier": 23.823528, "toughness": 0.0, "traits": ["ratty", "tasty"]},
+    "trim": {"durability": 11.0, "traits": ["ratty", "tasty"]}
+  },
+  "string_cheese": {
+    "id": "string_cheese",
+    "color": "fff2c132",
+    "name": "String Cheese",
+    "string": {"modifier": 1.4, "traits": []}
+  },
+  "plague_metal": {
+    "id": "plague_metal",
+    "color": "ff515450",
+    "name": "Plague Metal",
+    "head": {
+      "durability": 585,
+      "attack": 7.5,
+      "level": 2,
+      "speed": 0.75,
+      "traits": ["disease", "plague_shot"]
+    },
+    "handle": {"durability": -17, "modifier": 1.1, "traits": ["disease", "plague_shot"]},
+    "extra": {"durability": 135, "traits": ["disease", "plague_shot"]},
+    "bow": {"damage": 1.5, "speed": 2.0, "range": 3.0, "traits": ["disease", "plague_shot"]},
+    "core": {"defense": 25.3125, "durability": 20.0, "traits": ["disease", "plague_shot"]},
+    "plate": {
+      "durability": 13.0,
+      "modifier": 17.470587,
+      "toughness": -0.0,
+      "traits": ["disease", "plague_shot"]
+    },
+    "trim": {"durability": 13.0, "traits": ["disease", "plague_shot"]}
+  },
+  "tnt": {
+    "id": "tnt",
+    "color": "ffff5555",
+    "name": "TNT",
+    "shaft": {"ammo": 0, "modifier": 0.95, "traits": ["explosive"]}
+  },
+  "alumite": {
+    "id": "alumite",
+    "color": "ffff5555",
+    "name": "Alumite",
+    "head": {"durability": 394, "attack": 3.09, "level": 6, "speed": 3.83, "traits": ["global"]},
+    "handle": {"durability": 53, "modifier": 0.6, "traits": ["global"]},
+    "extra": {"durability": 1, "traits": ["global"]},
+    "bow": {"damage": 7.0, "speed": 0.65, "range": 1.6, "traits": ["global"]},
+    "core": {"defense": 15.0, "durability": 11.0, "traits": ["camdaibay_armor", "dunanstransport_armor"]},
+    "plate": {"durability": 5.0, "modifier": 1.0, "toughness": 1.65, "traits": ["dunanstransport_armor"]},
+    "trim": {"durability": 8.0, "traits": ["dunanstransport_armor"]}
+  },
+  "sapphire": {
+    "id": "sapphire",
+    "color": "ff5555ff",
+    "name": "Sapphire",
+    "head": {"durability": 525, "attack": 4.8, "level": 8, "speed": 3.75, "traits": ["aquadynamic"]},
+    "handle": {"durability": 75, "modifier": 1.0, "traits": ["aquadynamic"]},
+    "extra": {"durability": 90, "traits": ["aquadynamic"]},
+    "bow": {"damage": 4.0, "speed": 1.0, "range": 1.5, "traits": ["aquadynamic"]},
+    "core": {"defense": 15.0, "durability": 11.0, "traits": ["aquaspeed_armor"]},
+    "plate": {"durability": 5.0, "modifier": 1.0, "toughness": 1.65, "traits": ["aquaspeed_armor"]},
+    "trim": {"durability": 8.0, "traits": ["aquaspeed_armor"]}
+  },
+  "ruby": {
+    "id": "ruby",
+    "color": "ffff5555",
+    "name": "Ruby",
+    "head": {"durability": 495, "attack": 4.8, "level": 8, "speed": 3.45, "traits": ["sharp"]},
+    "handle": {"durability": 0, "modifier": 1.2, "traits": ["hearts"]},
+    "extra": {"durability": 15, "traits": ["hearts"]},
+    "bow": {"damage": 4.0, "speed": 1.5, "range": 1.4, "traits": ["hearts"]},
+    "core": {"defense": 15.0, "durability": 11.0, "traits": ["lightweight_armor"]},
+    "plate": {"durability": 5.0, "modifier": 1.0, "toughness": 1.65, "traits": ["lightweight_armor"]},
+    "trim": {"durability": 8.0, "traits": ["lightweight_armor"]}
+  },
+  "peridot": {
+    "id": "peridot",
+    "color": "ff55ff55",
+    "name": "Peridot",
+    "head": {"durability": 480, "attack": 4.575, "level": 8, "speed": 3.0, "traits": ["naturesblessing"]},
+    "handle": {"durability": -52, "modifier": 1.3, "traits": ["naturesblessing"]},
+    "extra": {"durability": 15, "traits": ["naturesblessing"]},
+    "bow": {"damage": 4.0, "speed": 1.4, "range": 1.4, "traits": ["naturesblessing"]},
+    "core": {"defense": 15.0, "durability": 11.0, "traits": ["tom_and_jerry_armor"]},
+    "plate": {"durability": 5.0, "modifier": 1.0, "toughness": 1.65, "traits": ["tom_and_jerry_armor"]},
+    "trim": {"durability": 8.0, "traits": ["tom_and_jerry_armor"]}
+  },
+  "malachite_gem": {
+    "id": "malachite_gem",
+    "color": "ff00aa00",
+    "name": "Malachite",
+    "head": {"durability": 480, "attack": 4.575, "level": 8, "speed": 2.25, "traits": ["natureswrath"]},
+    "handle": {"durability": -52, "modifier": 1.3, "traits": ["natureswrath"]},
+    "extra": {"durability": 15, "traits": ["natureswrath"]},
+    "bow": {"damage": 4.0, "speed": 1.4, "range": 1.4, "traits": ["natureswrath"]},
+    "core": {"defense": 15.440625, "durability": 17.0, "traits": ["vengeful_armor"]},
+    "plate": {"durability": 2.0, "modifier": 20.647058, "toughness": -0.0, "traits": ["vengeful_armor"]},
+    "trim": {"durability": 2.0, "traits": ["vengeful_armor"]}
+  },
+  "amber": {
+    "id": "amber",
+    "color": "ffffaa00",
+    "name": "Amber",
+    "head": {"durability": 548, "attack": 4.275, "level": 3, "speed": 3.45, "traits": ["shocking"]},
+    "handle": {"durability": 23, "modifier": 1.0, "traits": ["shocking"]},
+    "extra": {"durability": 75, "traits": ["shocking"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["shocking"]},
+    "shaft": {"ammo": 5, "modifier": 1.0, "traits": ["thundering"]},
+    "core": {"defense": 14.428125, "durability": 19.0, "traits": ["voltaic_armor"]},
+    "plate": {"durability": 7.0, "modifier": 15.882353, "toughness": 0.0, "traits": ["voltaic_armor"]},
+    "trim": {"durability": 7.0, "traits": ["voltaic_armor"]}
+  },
+  "topaz": {
+    "id": "topaz",
+    "color": "ffffaa00",
+    "name": "Topaz",
+    "head": {"durability": 518, "attack": 4.5, "level": 8, "speed": 4.5, "traits": ["naturespower"]},
+    "handle": {"durability": 53, "modifier": 0.8, "traits": ["naturespower"]},
+    "extra": {"durability": 49, "traits": ["naturespower"]},
+    "bow": {"damage": 7.0, "speed": 0.4, "range": 1.4, "traits": ["naturespower"]},
+    "core": {"defense": 15.1875, "durability": 18.0, "traits": ["aridiculous_armor"]},
+    "plate": {"durability": 5.0, "modifier": 12.705882, "toughness": 0.0, "traits": ["aridiculous_armor"]},
+    "trim": {"durability": 5.0, "traits": ["aridiculous_armor"]}
+  },
+  "tanzanite": {
+    "id": "tanzanite",
+    "color": "ffff55ff",
+    "name": "Tanzanite",
+    "head": {"durability": 488, "attack": 5.25, "level": 8, "speed": 2.25, "traits": ["freezing"]},
+    "handle": {"durability": 0, "modifier": 0.7, "traits": ["freezing"]},
+    "extra": {"durability": 19, "traits": ["freezing"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["freezing"]},
+    "core": {"defense": 17.71875, "durability": 17.0, "traits": ["absorbent_armor"]},
+    "plate": {"durability": 2.0, "modifier": 11.117647, "toughness": 0.0, "traits": ["absorbent_armor"]},
+    "trim": {"durability": 2.0, "traits": ["absorbent_armor"]}
+  },
+  "amethyst": {
+    "id": "amethyst",
+    "color": "ffff55ff",
+    "name": "Amethyst",
+    "head": {
+      "durability": 825,
+      "attack": 6.0,
+      "level": 8,
+      "speed": 4.5,
+      "traits": ["apocalypse", "darktraveler"]
+    },
+    "handle": {"durability": 75, "modifier": 1.5, "traits": ["apocalypse", "darktraveler"]},
+    "extra": {"durability": 75, "traits": ["apocalypse", "darktraveler"]},
+    "bow": {"damage": 6.5, "speed": 0.65, "range": 1.7, "traits": ["apocalypse", "darktraveler"]},
+    "core": {"defense": 31.38, "durability": 29.0, "traits": ["invigorating_armor", "darktraveler"]},
+    "plate": {
+      "durability": 7.0,
+      "modifier": 23.823528,
+      "toughness": 0.25,
+      "traits": ["invigorating_armor", "darktraveler"]
+    },
+    "trim": {"durability": 12.0, "traits": ["invigorating_armor", "darktraveler"]}
+  },
+  "osgloglas": {
+    "id": "osgloglas",
+    "color": "ff72ff68",
+    "name": "Osgloglas",
+    "head": {"durability": 1680, "attack": 8.25, "level": 9, "speed": 5.625, "traits": ["sassy"]},
+    "handle": {"durability": 1, "modifier": 1.2, "traits": ["sassy"]},
+    "extra": {"durability": 60, "traits": ["sassy"]},
+    "bow": {"damage": 6.56, "speed": 0.48, "range": 1.44, "traits": ["sassy"]},
+    "core": {"defense": 22.28, "durability": 47.2, "traits": ["sassy"]},
+    "plate": {"durability": 4.8, "modifier": 15.25, "toughness": 0.0, "traits": ["sassy"]},
+    "trim": {"durability": 4.8, "traits": ["sassy"]}
+  },
+  "osmiridium": {
+    "id": "osmiridium",
+    "color": "ffff55ff",
+    "name": "Osmiridium",
+    "head": {"durability": 975, "attack": 4.62, "level": 9, "speed": 3.93, "traits": ["anticorrosion"]},
+    "handle": {"durability": 23, "modifier": 1.16, "traits": ["devilsstrength"]},
+    "extra": {"durability": 600, "traits": ["devilsstrength"]},
+    "bow": {"damage": 10.0, "speed": 0.38, "range": 2.05, "traits": ["devilsstrength"]},
+    "core": {"defense": 19.65, "durability": 34.0, "traits": ["devilsstrength", "lightweight_armor"]},
+    "plate": {
+      "durability": 57.0,
+      "modifier": 18.423527,
+      "toughness": 2.2,
+      "traits": ["devilsstrength", "lightweight_armor"]
+    },
+    "trim": {"durability": 57.0, "traits": ["devilsstrength", "lightweight_armor"]}
+  },
+  "titanium": {
+    "id": "titanium",
+    "color": "ffffffff",
+    "name": "Titanium",
+    "head": {"durability": 1420, "attack": 4.5, "level": 6, "speed": 9.49, "traits": ["anticorrosion"]},
+    "handle": {"durability": 0, "modifier": 2.8, "traits": ["light"]},
+    "extra": {"durability": 30, "traits": ["light"]},
+    "bow": {"damage": 6.6, "speed": 0.85, "range": 1.3, "traits": ["light"]},
+    "fletching": {"accuracy": 1.2, "modifier": 1.56, "traits": ["light"]},
+    "core": {"defense": 18.68, "durability": 150.0, "traits": ["light"]},
+    "plate": {"durability": 9.0, "modifier": 44.47059, "toughness": 0.0, "traits": ["light"]},
+    "trim": {"durability": 9.0, "traits": ["light"]}
+  },
+  "psimetal": {
+    "id": "psimetal",
+    "color": "ff6d9eff",
+    "name": "Psimetal",
+    "head": {
+      "durability": 116,
+      "attack": 1.88,
+      "level": 7,
+      "speed": 2.63,
+      "traits": ["psicological", "global"]
+    },
+    "handle": {"durability": 1, "modifier": 1.3, "traits": ["psicological", "global"]},
+    "extra": {"durability": 1, "traits": ["psicological", "global"]},
+    "bow": {"damage": 4.0, "speed": 1.0, "range": 1.6, "traits": ["psicological", "global"]},
+    "core": {"defense": 6.345, "durability": 4.0, "traits": ["psicological"]},
+    "plate": {"durability": 0.0, "modifier": 2.5, "toughness": 0.0, "traits": ["psicological"]},
+    "trim": {"durability": 0.0, "traits": ["psicological"]}
+  },
+  "psigem": {
+    "id": "psigem",
+    "color": "ff0843a3",
+    "name": "Psigem",
+    "head": {
+      "durability": 233,
+      "attack": 1.88,
+      "level": 7,
+      "speed": 2.63,
+      "traits": ["psicological", "portly"]
+    },
+    "handle": {"durability": 1, "modifier": 1.3, "traits": ["psicological", "portly"]},
+    "extra": {"durability": 1, "traits": ["psicological", "portly"]},
+    "bow": {"damage": 4.0, "speed": 1.0, "range": 1.6, "traits": ["psicological", "portly"]},
+    "core": {"defense": 6.345, "durability": 8.0, "traits": ["psicological"]},
+    "plate": {"durability": 0.0, "modifier": 20.647058, "toughness": 0.0, "traits": ["psicological"]},
+    "trim": {"durability": 0.0, "traits": ["psicological"]}
+  },
+  "mica": {
+    "id": "mica",
+    "color": "ffbbbbbb",
+    "name": "Mica",
+    "head": {"durability": 510, "attack": 4.5, "level": 6, "speed": 4.125, "traits": ["slashing"]},
+    "handle": {"durability": -9, "modifier": 0.9, "traits": ["slashing"]},
+    "extra": {"durability": 730, "traits": ["slashing"]},
+    "bow": {"damage": -1.0, "speed": 0.2, "range": 0.4, "traits": ["slashing"]},
+    "core": {"defense": 22.5, "durability": 18.0, "traits": ["slashing"]},
+    "plate": {"durability": 69.0, "modifier": 14.294118, "toughness": -0.0, "traits": ["slashing"]},
+    "trim": {"durability": 69.0, "traits": ["slashing"]}
+  },
+  "thaumium": {
+    "id": "thaumium",
+    "color": "ff1e0066",
+    "name": "Thaumium",
+    "head": {"durability": 563, "attack": 6.19, "level": 6, "speed": 7.88, "traits": ["thaumic"]},
+    "handle": {"durability": 23, "modifier": 1.0, "traits": ["thaumic"]},
+    "extra": {"durability": 90, "traits": ["thaumic"]},
+    "bow": {"damage": 6.0, "speed": 0.7, "range": 1.8, "traits": ["thaumic"]},
+    "core": {"defense": 21.0, "durability": 22.75, "traits": ["thaumic"]},
+    "plate": {"durability": 9.0, "modifier": 2.6, "toughness": 1.5, "traits": ["thaumic"]},
+    "trim": {"durability": 9.0, "traits": ["thaumic"]}
+  },
+  "starmetal": {
+    "id": "starmetal",
+    "color": "ff000b56",
+    "name": "Starmetal",
+    "head": {"durability": 152, "attack": 4.99, "level": 6, "speed": 6.48, "traits": ["im_a_superstar"]},
+    "handle": {"durability": 45, "modifier": 1.5, "traits": ["illuminati"]},
+    "extra": {"durability": 375, "traits": ["illuminati"]},
+    "bow": {"damage": 12.0, "speed": 0.5, "range": 1.5, "traits": ["illuminati"]},
+    "core": {"defense": 13.52, "durability": 8.0, "traits": ["alien_armor"]},
+    "plate": {"durability": 8.0, "modifier": 18.0, "toughness": 3.5, "traits": ["alien_armor"]},
+    "trim": {"durability": 35.0, "traits": ["alien_armor"]}
+  },
+  "ichorium": {
+    "id": "ichorium",
+    "color": "ffa75110",
+    "name": "Ichorium",
+    "head": {
+      "durability": 2391,
+      "attack": 2.625,
+      "level": 9,
+      "speed": 12.0,
+      "traits": ["instantbreak", "magnetic2", "writable2"]
+    },
+    "handle": {"durability": 244, "modifier": 1.2, "traits": ["writable1"]},
+    "extra": {"durability": 207, "traits": ["writable1"]},
+    "bow": {"damage": 7.0, "speed": 3.5, "range": 6.5, "traits": ["writable1"]},
+    "core": {"defense": 8.859375, "durability": 84.0, "traits": ["writable1"]},
+    "plate": {"durability": 20.0, "modifier": 19.058823, "toughness": 0.0, "traits": ["writable1"]},
+    "trim": {"durability": 20.0, "traits": ["writable1"]}
+  },
+  "mirion": {
+    "id": "mirion",
+    "color": "ffffff55",
+    "name": "Mirion",
+    "head": {
+      "durability": 720,
+      "attack": 5.4,
+      "level": 11,
+      "speed": 5.4,
+      "traits": ["mana", "botanical2", "tconevo.mortal_wounds", "momentum"]
+    },
+    "handle": {"durability": 24, "modifier": 0.88, "traits": ["mana", "botanical2", "tconevo.fae_voice"]},
+    "extra": {"durability": 54, "traits": ["mana", "botanical2", "tconevo.fae_voice"]},
+    "bow": {"damage": 4.4, "speed": 1.08, "range": 1.2, "traits": ["mana", "botanical2", "momentum"]},
+    "core": {
+      "defense": 17.09,
+      "durability": 12.5,
+      "traits": ["mana", "botanical2", "tconevo.will_strength_armor", "tconevo.fae_voice_armor"]
+    },
+    "plate": {
+      "durability": 5.25,
+      "modifier": 8.74,
+      "toughness": 0.0,
+      "traits": ["mana", "botanical2", "tconevo.fae_voice_armor", "shielding_armor"]
+    },
+    "trim": {"durability": 5.25, "traits": ["mana", "botanical2", "lightweight_armor"]}
+  },
+  "manasteel": {
+    "id": "manasteel",
+    "color": "ff5555ff",
+    "name": "Manasteel",
+    "head": {"durability": 405, "attack": 4.5, "level": 4, "speed": 5.25, "traits": ["mana"]},
+    "handle": {"durability": 113, "modifier": 1.25, "traits": ["mana"]},
+    "extra": {"durability": 45, "traits": ["mana"]},
+    "bow": {"damage": 1.0, "speed": 1.0, "range": 1.1, "traits": ["mana"]},
+    "core": {"defense": 15.1875, "durability": 14.0, "traits": ["mana"]},
+    "plate": {"durability": 5.0, "modifier": 19.85294, "toughness": 0.0, "traits": ["mana"]},
+    "trim": {"durability": 5.0, "traits": ["mana"]}
+  },
+  "elementium": {
+    "id": "elementium",
+    "color": "ffff55ff",
+    "name": "Elementium",
+    "head": {"durability": 405, "attack": 4.5, "level": 11, "speed": 5.25, "traits": ["mana", "elemental"]},
+    "handle": {"durability": 113, "modifier": 1.25, "traits": ["mana"]},
+    "extra": {"durability": 45, "traits": ["mana"]},
+    "bow": {"damage": 7.5, "speed": 0.8, "range": 1.5, "traits": ["mana"]},
+    "core": {"defense": 15.1875, "durability": 14.0, "traits": ["mana"]},
+    "plate": {"durability": 5.0, "modifier": 19.85294, "toughness": 0.0, "traits": ["mana"]},
+    "trim": {"durability": 5.0, "traits": ["mana"]}
+  },
+  "terrasteel": {
+    "id": "terrasteel",
+    "color": "ff55ff55",
+    "name": "Terrasteel",
+    "head": {
+      "durability": 1172,
+      "attack": 4.875,
+      "level": 11,
+      "speed": 6.75,
+      "traits": ["mana", "terrafirma2"]
+    },
+    "handle": {"durability": 8, "modifier": 1.4, "traits": ["mana", "terrafirma1"]},
+    "extra": {"durability": 8, "traits": ["mana", "terrafirma1"]},
+    "bow": {"damage": 11.0, "speed": 0.55, "range": 2.0, "traits": ["mana", "terrafirma1"]},
+    "core": {"defense": 16.453125, "durability": 41.0, "traits": ["mana", "terrafirma1"]},
+    "plate": {
+      "durability": 1.0,
+      "modifier": 22.235294,
+      "toughness": 0.0,
+      "traits": ["mana", "terrafirma1"]
+    },
+    "trim": {"durability": 1.0, "traits": ["mana", "terrafirma1"]}
+  },
+  "pink_slime": {
+    "id": "pink_slime",
+    "color": "ffff84ad",
+    "name": "Pink Slime",
+    "head": {
+      "durability": 1350,
+      "attack": 1.35,
+      "level": 5,
+      "speed": 2.8275,
+      "traits": ["tconevo.slimey_pink", "challenger"]
+    },
+    "handle": {"durability": -1276, "modifier": 1.95, "traits": ["tconevo.slimey_pink", "challenger"]},
+    "extra": {"durability": 182, "traits": ["tconevo.slimey_pink", "challenger"]},
+    "bow": {"damage": 0.0, "speed": 1.2, "range": 0.8, "traits": ["tconevo.slimey_pink", "challenger"]},
+    "core": {
+      "defense": 4.55625,
+      "durability": 47.0,
+      "traits": ["tconevo.slimey_pink_armor", "bouncy_armor"]
+    },
+    "plate": {
+      "durability": 17.0,
+      "modifier": 30.970587,
+      "toughness": -0.0,
+      "traits": ["tconevo.slimey_pink_armor", "bouncy_armor"]
+    },
+    "trim": {"durability": 17.0, "traits": ["tconevo.slimey_pink_armor", "challenger_armor"]}
+  },
+  "emerald_plustic": {
+    "id": "emerald_plustic",
+    "color": "ff55ff55",
+    "name": "Emerald",
+    "head": {"durability": 917, "attack": 5.25, "level": 4, "speed": 5.25, "traits": ["elemental"]},
+    "handle": {"durability": 0, "modifier": 1.1, "traits": ["terrafirma1"]},
+    "extra": {"durability": 53, "traits": ["terrafirma1"]},
+    "bow": {"damage": 0.9, "speed": 1.1, "range": 1.0, "traits": ["terrafirma1"]},
+    "core": {"defense": 15.0, "durability": 14.0, "traits": ["goodfridayagreement_armor", "terrafirma1"]},
+    "plate": {
+      "durability": 7.0,
+      "modifier": 1.0,
+      "toughness": 1.65,
+      "traits": ["goodfridayagreement_armor", "terrafirma1"]
+    },
+    "trim": {"durability": 11.0, "traits": ["goodfridayagreement_armor", "terrafirma1"]}
+  },
+  "wood": {
+    "id": "wood",
+    "color": "ff8e661b",
+    "name": "Wood",
+    "head": {"durability": 26, "attack": 1.5, "level": 0, "speed": 1.5, "traits": ["ecological"]},
+    "handle": {"durability": 19, "modifier": 1.0, "traits": ["ecological"]},
+    "extra": {"durability": 11, "traits": ["ecological"]},
+    "bow": {"damage": 0.0, "speed": 1.0, "range": 1.0, "traits": ["ecological"]},
+    "shaft": {"ammo": 0, "modifier": 1.0, "traits": ["ecological"]},
+    "core": {"defense": 2.25, "durability": 2.0, "traits": ["ecological_armor"]},
+    "plate": {"durability": 1.0, "modifier": 1.0, "toughness": 0.0, "traits": ["ecological_armor"]},
+    "trim": {"durability": 1.0, "traits": ["ecological_armor"]}
+  }
+}

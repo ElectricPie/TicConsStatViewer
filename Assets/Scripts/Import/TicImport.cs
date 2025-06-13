@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using System.Linq;
 using Import;
 using UnityEngine;
 using Newtonsoft.Json;
@@ -23,14 +25,30 @@ public class TicImport : MonoBehaviour
         if (data.Infos is not null)
         {
             Debug.Log($"Infos: {data.Infos}");
-            foreach (var mod in data.Infos.ModList)
-            {
-                Debug.Log($"Mod: {mod}");
-            }
+            // foreach (var mod in data.Infos.ModList)
+            // {
+            //     Debug.Log($"Mod: {mod}");
+            // }
         }
         else
         {
             Debug.LogError("Infos is null.");
+        }
+
+        if (data.Materials is not null)
+        {
+            int testCount = data.Materials.Keys.Count < 3 ? data.Materials.Keys.Count : 3;
+            for (int i = 0; i < testCount; i++)
+            {
+                // Accessing the dictionary by key
+                string key = data.Materials.Keys.ElementAt(i);
+                TicMaterial material = data.Materials[key];
+                Debug.Log($"Material {key}: {material}");
+            }
+        }
+        else
+        {
+            Debug.LogError("Materials is null.");
         }
     }
 }
@@ -39,6 +57,7 @@ public class TicImportData
 {
     [JsonProperty("infos")]
     public TicInfos Infos { get; set; }
-    // public TicMaterial[] materials;
+    [JsonProperty("materials")]
+    public Dictionary<string, TicMaterial> Materials { get; set; }
     // public TicTraits[] traits;
 }

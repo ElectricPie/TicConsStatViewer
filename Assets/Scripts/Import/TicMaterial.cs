@@ -1,14 +1,22 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace Import
 {
     [Serializable]
     public class TicMaterial
     {
-        public string id = "";
-        public string color = "";
-        public string name = "";
+        [JsonProperty("id")]
+        public string Id { get; set; }
+        [JsonProperty("color")]
+        public string Color = "";
+        [JsonProperty("name")]
+        public string Name = "";
         
+        public override string ToString()
+        {
+            return $"Id: {Id}, Color: {Color}, Name: {Name}";
+        }
     }
 
     [Serializable]

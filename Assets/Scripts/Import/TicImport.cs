@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 public class TicImport : MonoBehaviour
 {
-    [SerializeField] private string m_filePath = "";
+    // [SerializeField] private string m_filePath = "";
     [SerializeField] private TextAsset m_jsonFile = null;
 
     public void Start()
@@ -37,13 +37,19 @@ public class TicImport : MonoBehaviour
 
         if (data.Materials is not null)
         {
-            int testCount = data.Materials.Keys.Count < 3 ? data.Materials.Keys.Count : 3;
-            for (int i = 0; i < testCount; i++)
+            //const int testCountMax = 10;
+            //int testCount = data.Materials.Keys.Count < testCountMax ? data.Materials.Keys.Count : testCountMax;
+            //for (int i = 0; i < testCount; i++)
+            for (int i = 0; i < data.Materials.Keys.Count; i++)
             {
                 // Accessing the dictionary by key
                 string key = data.Materials.Keys.ElementAt(i);
                 TicMaterial material = data.Materials[key];
-                Debug.Log($"Material {key}: {material}");
+                // Debug.Log($"Material {key}: {material}");
+                if (material.Fletching is not null)
+                {
+                    Debug.Log($"Material {key}: Fletching {material.Fletching}");
+                }
             }
         }
         else

@@ -40,21 +40,39 @@ public class TicImport : MonoBehaviour
             //const int testCountMax = 10;
             //int testCount = data.Materials.Keys.Count < testCountMax ? data.Materials.Keys.Count : testCountMax;
             //for (int i = 0; i < testCount; i++)
-            for (int i = 0; i < data.Materials.Keys.Count; i++)
-            {
-                // Accessing the dictionary by key
-                string key = data.Materials.Keys.ElementAt(i);
-                TicMaterial material = data.Materials[key];
-                // Debug.Log($"Material {key}: {material}");
-                if (material.Fletching is not null)
-                {
-                    Debug.Log($"Material {key}: Fletching {material.Fletching}");
-                }
-            }
+            
+            // for (int i = 0; i < data.Materials.Keys.Count; i++)
+            // {
+            //     // Accessing the dictionary by key
+            //     string key = data.Materials.Keys.ElementAt(i);
+            //     TicMaterial material = data.Materials[key];
+            //     // Debug.Log($"Material {key}: {material}");
+            //     if (material.Fletching is not null)
+            //     {
+            //         Debug.Log($"Material {key}: Fletching {material.Fletching}");
+            //     }
+            // }
         }
         else
         {
             Debug.LogError("Materials is null.");
+        }
+
+        if (data.Traits is not null)
+        {
+            // const int testCountMax = 3;
+            // int testCount = data.Traits.Keys.Count < testCountMax ? data.Traits.Keys.Count : testCountMax;
+            for (int i = 0; i < data.Traits.Keys.Count; i++)
+            {
+                // Accessing the dictionary by key
+                string key = data.Traits.Keys.ElementAt(i);
+                TicTraits trait = data.Traits[key];
+                Debug.Log($"Trait {key}: {trait}");
+            }
+        }
+        else
+        {
+            Debug.LogError("Traits is null.");
         }
     }
 }
@@ -65,5 +83,6 @@ public class TicImportData
     public TicInfos Infos { get; set; }
     [JsonProperty("materials")]
     public Dictionary<string, TicMaterial> Materials { get; set; }
-    // public TicTraits[] traits;
+    [JsonProperty("traits")]
+    public Dictionary<string, TicTraits> Traits { get; set; }
 }

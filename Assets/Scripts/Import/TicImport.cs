@@ -3,11 +3,14 @@ using System.Linq;
 using Import;
 using UnityEngine;
 using Newtonsoft.Json;
+using UnityEngine.Events;
 
 public class TicImport : MonoBehaviour
 {
     // [SerializeField] private string m_filePath = "";
     [SerializeField] private TextAsset m_jsonFile = null;
+    
+    [SerializeField] private UnityEvent<TicImportData> m_onImportComplete;
 
     public void Start()
     {
@@ -62,18 +65,21 @@ public class TicImport : MonoBehaviour
         {
             // const int testCountMax = 3;
             // int testCount = data.Traits.Keys.Count < testCountMax ? data.Traits.Keys.Count : testCountMax;
-            for (int i = 0; i < data.Traits.Keys.Count; i++)
-            {
-                // Accessing the dictionary by key
-                string key = data.Traits.Keys.ElementAt(i);
-                TicTraits trait = data.Traits[key];
-                Debug.Log($"Trait {key}: {trait}");
-            }
+            
+            // for (int i = 0; i < data.Traits.Keys.Count; i++)
+            // {
+            //     // Accessing the dictionary by key
+            //     string key = data.Traits.Keys.ElementAt(i);
+            //     TicTraits trait = data.Traits[key];
+            //     Debug.Log($"Trait {key}: {trait}");
+            // }
         }
         else
         {
             Debug.LogError("Traits is null.");
         }
+        
+        m_onImportComplete.Invoke(data);
     }
 }
 

@@ -7,9 +7,9 @@ namespace Import
         [JsonProperty("id")]
         public string Id { get; set; }
         [JsonProperty("color")]
-        public string Color = "";
+        public string Color { get; set; }
         [JsonProperty("name")]
-        public string Name = "";
+        public string Name { get; set; }
         [JsonProperty("head")]
         public TicMaterialHead Head { get; set; }
         [JsonProperty("handle")]
